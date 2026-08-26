@@ -92,6 +92,14 @@ across workshops. A missing deliverable is the thing that costs you credit,
 which is why the attendance and submission policies below are about telling me
 early rather than about penalties.
 
+**This course is required for the MSBA, so No Credit is not a small outcome.** It
+means retaking the course, and this is the course that prepares you for the
+Summer Capstone. There are only four workshops, so one missed deliverable is a
+quarter of the course and there is not much room to recover late in the term.
+That is the reason I would rather hear from you in the week something goes wrong
+than at the end. Tell me early and there is almost always a way through. Tell me
+in December and there is not.
+
 ## Workshop schedule
 
 Each workshop is a hands-on tutorial. You learn the material by doing it,
