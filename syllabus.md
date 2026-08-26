@@ -8,7 +8,7 @@ Fall 2026
 | Format | Online and synchronous, over Zoom |
 | Meetings | Four workshops, Fridays 9:00 AM to 12:00 PM |
 | Location | https://lmula.zoom.us/my/lontok |
-| Credit hours | 1 |
+| Credit hours | 0. This course carries no units and is required for the MSBA |
 | Grading | Credit / No Credit |
 
 There is no other fixed meeting time. The four workshop dates below are the
@@ -92,10 +92,12 @@ across workshops. A missing deliverable is the thing that costs you credit,
 which is why the attendance and submission policies below are about telling me
 early rather than about penalties.
 
-**This course is required for the MSBA, so No Credit is not a small outcome.** It
-means retaking the course, and this is the course that prepares you for the
-Summer Capstone. There are only four workshops, so one missed deliverable is a
-quarter of the course and there is not much room to recover late in the term.
+**This course carries no units, and it is still required for the MSBA.** That
+combination is worth understanding. No Credit here costs you no units and no GPA,
+because there are none to lose. What it costs is the requirement itself: you
+retake the course, and this is the course that prepares you for the Summer
+Capstone. There are only four workshops, so one missed deliverable is a quarter
+of the course and there is not much room to recover late in the term.
 That is the reason I would rather hear from you in the week something goes wrong
 than at the end. Tell me early and there is almost always a way through. Tell me
 in December and there is not.
@@ -121,13 +123,17 @@ credit/no credit grading.
 
 ## Work load expectations
 
-This is a 1-unit course delivered in four sessions rather than weekly, so the
-load is uneven by design. Expect about 12 hours in the workshops themselves and
-roughly 3 to 5 hours on each workshop's deliverable in the week that follows.
-Averaged across the term that is a few hours a week, but it does not arrive
-evenly, and the weeks after a workshop are the heavy ones.
+This course carries no units, so LMU's credit hour policy does not set the load.
+That does not make the work optional, and it is worth being plain about what it
+actually costs you.
 
-See LMU's credit hour policy: https://academics.lmu.edu/aprc/lmucredithourpolicy/
+Expect about 12 hours in the workshops themselves, three hours each, plus roughly
+3 to 5 hours on each workshop's deliverable in the week that follows. That is
+somewhere around 24 to 32 hours across the term.
+
+It does not arrive evenly. Most weeks ask nothing of you, and the week after a
+workshop asks for an afternoon. Plan for the weeks that follow a workshop rather
+than for an average.
 
 ## Assignment submission
 
