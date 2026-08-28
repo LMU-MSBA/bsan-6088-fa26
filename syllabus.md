@@ -17,10 +17,9 @@ entire synchronous schedule for the term.
 ## Course description
 
 A required workshop series that prepares you for the Summer Capstone Project.
-The first workshop is about solving problems independently, including with AI.
-The rest cover identifying and framing business problems that deliver measurable
-value, collecting data from APIs and websites, and the ethical implications of
-working with data.
+The four workshops cover working with AI on real work, identifying and framing
+business problems that deliver measurable value, getting data when the obvious
+source does not exist, and the unspoken rules of professional life.
 
 During the course you will form teams for the Summer Capstone Project and be
 matched with industry clients, and you will begin identifying and framing those
@@ -64,21 +63,68 @@ and tools to analyze and solve a complex business problem.
 
 ## Required materials
 
-**Required texts: none.** You will receive links to O'Reilly resources and other
-online material.
+**Required text: Gorick Ng, *The Unspoken Rules*. Free through the LMU Library**
+at [ebookcentral.proquest.com](https://ebookcentral.proquest.com/lib/lmu/detail.action?docID=6259823).
+You do not need to buy it. We read it across the term and open each session
+discussing it, so have access sorted before Workshop 1.
 
-**Required lab fees: none.**
+You will also receive links to O'Reilly resources and other online material.
 
-You need a computer capable of running the workshop tools, and a working
-microphone. Workshops are hands-on, so plan to work along rather than watch.
+**Required lab fees: none.** LMU bills no fee for this course. There is one
+subscription you pay for yourself, below.
+
+**Claude Pro: $20 a month for September, October, and November. About $60.** You
+work in Claude Code in every workshop, and the free tier of Claude does not
+include it. There is no student discount. Annual billing costs less per month but
+commits you to twelve, which is longer than you need for this course. If the cost
+is a problem, talk to me before you pay rather than after.
+
+**Set up your tools before Workshop 1.** Complete Part 1 of the
+[AI Dev Workflow Tutorial](https://github.com/LMU-ISBA/ai-dev-workflow-tutorial)
+before Friday, September 11. It takes 70 to 100 minutes and walks you through
+every account and install in the table below. Stop at the end of Part 1. Part 2
+is not assigned in this course, and the tutorial's Section 7 gives a due date and
+submission channel that belong to a different course, so ignore it.
+
+| Tool | What you use it for | Cost |
+|---|---|---|
+| [Claude Pro](https://claude.ai) | The subscription that gives you Claude Code | $20/month |
+| [Claude Code](https://claude.com/claude-code) | The AI agent you work with | Included with Pro |
+| [GitHub](https://github.com) | Where your work lives | Free |
+| [Cursor](https://cursor.com) | Editor | Free |
+| [Git](https://git-scm.com) | Version control | Free |
+| [Python 3.11+](https://www.python.org) | Runs the workshop tools | Free |
+| [Superpowers](https://github.com/obra/superpowers) | Claude Code plugin | Free |
+| [Granola](https://www.granola.ai/students) | AI meeting notes | Free for 12 months, student plan |
+| [Wispr Flow](https://wisprflow.ai/students) | Voice dictation | Free for 3 months, student plan |
+
+Granola and Wispr Flow are required. Apply for the student plans at the links
+above before you sign up any other way. Granola's runs twelve months and Wispr
+Flow's runs three, so neither should cost you anything this term. You will use
+both again in the Summer Capstone.
+
+You need a computer capable of running these tools, and a working microphone.
+Workshops are hands-on, so plan to work along rather than watch.
 
 ## How you are evaluated
 
 This course is graded **Credit / No Credit**. No letter grades are assigned, so
 there are no A through D floors in this course.
 
-For each workshop you complete and submit a set of assigned exercises. Each
-deliverable is assessed on three things:
+For each workshop you complete and submit a set of assigned exercises. Every
+one of them asks for your judgment rather than your output: what you rejected
+and why, what changed your mind, what you would refuse to do, the message you
+would actually send. A deliverable that shows only what an AI produced, with no
+evidence of your own thinking, does not meet the standard.
+
+| Workshop | What you turn in |
+|---|---|
+| 1 | Your wiki repository, an AI work log naming three tasks you gave the tool and what you rejected, and where you would draw the confidentiality line on this engagement |
+| 2 | Your problem statement before and after the stakeholder interview, what changed it, the assumptions you are proceeding on, and the one question you wish you had asked |
+| 3 | A data acquisition plan, a working pull from a public or third-party source with the code, a terms of use and privacy check, and your best proxy for the missing internal data |
+| 4 | A reflection tying specific chapters to something that actually happened in workshops 1 through 3, and the message you would send the stakeholder raising the real problem |
+
+Each deliverable is assessed on three things:
 
 | | |
 |---|---|
@@ -92,15 +138,10 @@ across workshops. A missing deliverable is the thing that costs you credit,
 which is why the attendance and submission policies below are about telling me
 early rather than about penalties.
 
-**This course carries no units, and it is still required for the MSBA.** That
-combination is worth understanding. No Credit here costs you no units and no GPA,
-because there are none to lose. What it costs is the requirement itself: you
-retake the course, and this is the course that prepares you for the Summer
-Capstone. There are only four workshops, so one missed deliverable is a quarter
-of the course and there is not much room to recover late in the term.
-That is the reason I would rather hear from you in the week something goes wrong
-than at the end. Tell me early and there is almost always a way through. Tell me
-in December and there is not.
+**This course carries no units, and it is still required for the MSBA.** No
+Credit here costs you no units and no GPA, because there are none to lose. What
+it costs is the requirement itself: you retake the course, and this is the course
+that prepares you for the Summer Capstone.
 
 ## Workshop schedule
 
@@ -108,15 +149,25 @@ Each workshop is a hands-on tutorial. You learn the material by doing it,
 including by making mistakes and working out the fix, which is the habit the
 Summer Capstone will ask for.
 
-| # | Date | Time | Topic |
-|---|---|---|---|
-| 1 | Fri Sep 11 | 9:00 AM to 12:00 PM | Learning to learn: finding solutions with AI, search, documentation, and each other |
-| 2 | Fri Oct 16 | 9:00 AM to 12:00 PM | Problem identification and framing |
-| 3 | Fri Oct 30 | 9:00 AM to 12:00 PM | Data collection with APIs and web scraping |
-| 4 | Fri Nov 13 | 9:00 AM to 12:00 PM | Data ethics and privacy |
+All four workshops are anchored on one client engagement. It is fictional, and
+it is dysfunctional in the ways real engagements are: the requirements are
+vague, the stakeholder is hard to reach, the internal data you were promised
+does not exist, and you may not put anything of theirs into an AI tool. You get
+the brief before Workshop 2.
 
-Deliverables are due one week after their workshop unless I say otherwise, and
-due dates are posted in Brightspace.
+| # | Date | Time | Topic | Deliverable due |
+|---|---|---|---|---|
+| 1 | Fri Sep 11 | 9:00 AM to 12:00 PM | Working with AI | Fri Sep 18 |
+| 2 | Fri Oct 16 | 9:00 AM to 12:00 PM | Problem identification and framing | Fri Oct 23 |
+| 3 | Fri Oct 30 | 9:00 AM to 12:00 PM | Getting the data, especially when it is not there | Fri Nov 6 |
+| 4 | Fri Nov 13 | 9:00 AM to 12:00 PM | The unspoken rules | Fri Nov 20 |
+
+About the first thirty minutes of each session is a discussion of the chapters
+of *The Unspoken Rules* that fit that day's work. There is no separate assignment
+for the book. It lands in Workshop 4's deliverable.
+
+Deliverables are due the Friday one week after their workshop unless I say
+otherwise, and due dates are posted in Brightspace.
 
 Note that Nov 13 is also the last day to withdraw from a class or apply for
 credit/no credit grading.
@@ -127,13 +178,16 @@ This course carries no units, so LMU's credit hour policy does not set the load.
 That does not make the work optional, and it is worth being plain about what it
 actually costs you.
 
-Expect about 12 hours in the workshops themselves, three hours each, plus roughly
-3 to 5 hours on each workshop's deliverable in the week that follows. That is
-somewhere around 24 to 32 hours across the term.
+Before Workshop 1, complete Part 1 of the AI Dev Workflow Tutorial. That is 70
+to 100 minutes and is the only pre-work assigned before a session.
 
-It does not arrive evenly. Most weeks ask nothing of you, and the week after a
-workshop asks for an afternoon. Plan for the weeks that follow a workshop rather
-than for an average.
+Each workshop is three hours in session. In addition to that, expect about three
+hours of work for the workshop, which can fall before or after the session
+itself. Across four workshops, plus the pre-work, that is roughly 26 to 34 hours
+for the term.
+
+It does not arrive evenly. Most weeks ask nothing of you, and the weeks around a
+workshop ask for an afternoon. Plan for those rather than for an average.
 
 ## Assignment submission
 
