@@ -83,8 +83,7 @@ is a problem, talk to me before you pay rather than after.
 [AI Dev Workflow Tutorial](https://github.com/LMU-ISBA/ai-dev-workflow-tutorial)
 before Friday, September 11. It takes 70 to 100 minutes and walks you through
 every account and install in the table below. Stop at the end of Part 1. Part 2
-is not assigned in this course, and the tutorial's Section 7 gives a due date and
-submission channel that belong to a different course, so ignore it.
+is not assigned in this course.
 
 | Tool | What you use it for | Cost |
 |---|---|---|
