@@ -156,17 +156,18 @@ the brief before Workshop 2.
 
 | # | Date | Time | Topic | Deliverable due |
 |---|---|---|---|---|
-| 1 | Fri Sep 11 | 9:00 AM to 12:00 PM | Working with AI | Fri Sep 18 |
-| 2 | Fri Oct 16 | 9:00 AM to 12:00 PM | Problem identification and framing | Fri Oct 23 |
-| 3 | Fri Oct 30 | 9:00 AM to 12:00 PM | Getting the data, especially when it is not there | Fri Nov 6 |
-| 4 | Fri Nov 13 | 9:00 AM to 12:00 PM | The unspoken rules | Fri Nov 20 |
+| 1 | Fri Sep 11 | 9:00 AM to 12:00 PM | Working with AI | Sun Sep 20 |
+| 2 | Fri Oct 16 | 9:00 AM to 12:00 PM | Problem identification and framing | Sun Oct 25 |
+| 3 | Fri Oct 30 | 9:00 AM to 12:00 PM | Getting the data, especially when it is not there | Sun Nov 8 |
+| 4 | Fri Nov 13 | 9:00 AM to 12:00 PM | The unspoken rules | Sun Nov 22 |
 
 About the first thirty minutes of each session is a discussion of the chapters
 of *The Unspoken Rules* that fit that day's work. There is no separate assignment
 for the book. It lands in Workshop 4's deliverable.
 
-Deliverables are due the Friday one week after their workshop unless I say
-otherwise, and due dates are posted in Brightspace.
+Deliverables are due at 11:59 PM on the Sunday that closes the week after their
+workshop unless I say otherwise, which is nine days and two weekends. Every due
+date is posted in Brightspace.
 
 Note that Nov 13 is also the last day to withdraw from a class or apply for
 credit/no credit grading.
@@ -192,14 +193,15 @@ workshop ask for an afternoon. Plan for those rather than for an average.
 
 Assignments are submitted through Brightspace by the posted deadline.
 
-Workshops are intensive and the weeks between them are not, so work submitted
-within two days of the deadline counts as on time. That window is room for an
-ordinary week that goes wrong. It is not a schedule to plan around.
+Deadlines are set where the time actually is. Workshops are intensive and the
+weeks between them are not, so a deliverable is due well after its session
+rather than the next time we meet. That spacing is the room for an ordinary week
+that goes wrong, which is why the deadline itself is firm.
 
-After two days, send me a Teams message. There is no percentage to dock in a
-credit/no credit course, which makes the question simpler and blunter: is the
-work going to arrive, and will it show me you did it. Tell me where you are and
-we'll set a date.
+If the work is not going to arrive, send me a Teams message before the deadline
+rather than after. There is no percentage to dock in a credit/no credit course,
+which makes the question simpler and blunter: is the work going to arrive, and
+will it show me you did it. Tell me where you are and we'll set a date.
 
 Work that never arrives is the one reliable way to lose credit for a deliverable.
 
