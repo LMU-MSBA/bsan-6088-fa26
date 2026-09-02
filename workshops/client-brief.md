@@ -63,11 +63,11 @@ IT can pull an extract for you once the NDA is signed. Ask for Marcus.
 
 An NDA will follow this brief and covers everything below.
 
-**Nothing from our systems goes into ChatGPT, Claude, Copilot, or any other AI
-tool.** Not transaction data, not customer records, not employee data, not
-excerpts of them. Our counsel is firm on this and it is not negotiable. We
-understand you may use those tools on your own work. Our data does not go into
-them.
+**Customer records and employee data do not go into ChatGPT, Claude, Copilot,
+or any other AI tool.** Not the loyalty file, not the labor schedules, not
+excerpts of them. Our counsel is firm on this and it is not negotiable. Sales
+totals by store and week, and the store attributes, are fine to use with those
+tools. We understand you use them on your own work.
 
 ## Timeline
 

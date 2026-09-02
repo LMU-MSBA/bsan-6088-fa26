@@ -8,9 +8,11 @@ Fall 2026
 | ------------ | ------------------------------------------------------------------ |
 | Format       | Online and synchronous, over Zoom                                  |
 | Meetings     | Four workshops, Fridays 9:00 AM to 12:00 PM                        |
-| Location     | https://lmula.zoom.us/my/lontok |
+| Location     | [https://lmula.zoom.us/my/lontok](https://lmula.zoom.us/my/lontok) |
 | Credit hours | 0. This course carries no units and is required for the MSBA       |
 | Grading      | Credit / No Credit                                                 |
+
+
 
 
 ## Course description
@@ -29,12 +31,14 @@ Professor Greg Lontok
 
 |                   |                                                                                                       |
 | ----------------- | ----------------------------------------------------------------------------------------------------- |
-| Email             | gregory.lontok@lmu.edu                                               |
+| Email             | [gregory.lontok@lmu.edu](mailto:gregory.lontok@lmu.edu)                                               |
 | Preferred contact | Microsoft Teams                                                                                       |
 | Office            | Hilton 114                                                                                            |
-| Office hours      | By appointment, on Zoom. Book at https://calendly.com/greg-lontok |
-| Zoom room         | https://lmula.zoom.us/my/lontok                                    |
-| LinkedIn          | https://www.linkedin.com/in/lontok                              |
+| Office hours      | By appointment, on Zoom. Book at [https://calendly.com/greg-lontok](https://calendly.com/greg-lontok) |
+| Zoom room         | [https://lmula.zoom.us/my/lontok](https://lmula.zoom.us/my/lontok)                                    |
+| LinkedIn          | [https://www.linkedin.com/in/lontok](https://www.linkedin.com/in/lontok)                              |
+
+
 
 
 ## Course outcomes
@@ -52,6 +56,8 @@ By the end of this workshop series you will be able to:
 5. Prescribe techniques for privacy and safety, guarding against the
   unintended consequences of data work.
 
+
+
 ### M.S. Business Analytics core learning outcomes
 
 This course contributes to the program outcomes that graduates can collect data
@@ -61,7 +67,7 @@ and tools to analyze and solve a complex business problem.
 ## Required materials
 
 The required text is Gorick Ng's *The Unspoken Rules*, free through the LMU
-Library at https://ebookcentral.proquest.com/lib/lmu/detail.action?docID=6259823.
+Library at [https://ebookcentral.proquest.com/lib/lmu/detail.action?docID=6259823](https://ebookcentral.proquest.com/lib/lmu/detail.action?docID=6259823).
 You don't need to buy it. The reading schedule is in the workshop schedule
 section below. The introduction and first two chapters are due before Workshop
 1, so have access sorted early.
@@ -78,13 +84,13 @@ if you expect to keep using it past November. If the cost is a problem, talk to
 me before you pay.
 
 Set up your tools before Workshop 1 by completing Part 1 of the AI Dev Workflow
-Tutorial at https://github.com/LMU-ISBA/ai-dev-workflow-tutorial. Do it before
+Tutorial at [https://github.com/LMU-ISBA/ai-dev-workflow-tutorial](https://github.com/LMU-ISBA/ai-dev-workflow-tutorial). Do it before
 Friday, September 11. It takes 70 to 100 minutes and walks you through every
 account and install in the table below. Stop at the end of Part 1. Part 2 is not
 assigned in this course.
 
 The reading notes template is at
-https://docs.google.com/document/d/12ArfdHGUMrj-r6mhb1EDH1f-jOTEbYOEEO1exAZsfAk/copy.
+[https://docs.google.com/document/d/12ArfdHGUMrj-r6mhb1EDH1f-jOTEbYOEEO1exAZsfAk/copy](https://docs.google.com/document/d/12ArfdHGUMrj-r6mhb1EDH1f-jOTEbYOEEO1exAZsfAk/copy).
 Opening that link makes your own copy. Rename it with your first and last name
 in the title of the document, share it with me, and submit the link in
 Brightspace before Workshop 1.
@@ -188,12 +194,7 @@ The reading is light before Workshop 1 because the tutorial is the pre-work
 that matters that week. It is heavy before Workshop 2 because you have five
 weeks.
 
-For each chapter, write down a question you have about the material, a quote
-worth keeping, and a comment on what you would do with it. Write all three
-within the context of the capstone project, your current job, or the job you're
-hoping for after graduation. One to three sentences each is plenty. Keep them in
-your copy of the notes template, the Google Doc you set up before Workshop 1.
-Bring them to the discussion, since that is where I will ask for them.
+For each chapter, write down a question you have about the material, a quote worth keeping, and a comment on what you would do with what you learned. Write all three within the context of the capstone project, your current job, or the job you're hoping for after graduation. One to three sentences each is plenty. Keep them in your copy of the notes template, the Google Doc you set up before Workshop 1.
 
 There is no separate assignment for the book. Those notes are the raw material
 for Workshop 4's deliverable. It asks you to tie specific chapters to things
@@ -293,8 +294,8 @@ what you submitted, why you did it that way, and what you would do if a
 constraint changed. Work you can't explain doesn't show learning, which is one
 of the three things the deliverables are assessed on.
 
-The ITS Service Desk is at 310-338-7777 or 213-736-1097, servicedesk@lmu.edu, and
-https://its.lmu.edu/servicedesk.
+The ITS Service Desk is at 310-338-7777 or 213-736-1097, [servicedesk@lmu.edu](mailto:servicedesk@lmu.edu), and
+[https://its.lmu.edu/servicedesk](https://its.lmu.edu/servicedesk).
 
 ## Academic honesty
 
@@ -310,7 +311,7 @@ often takes. You are expected to use AI. You are not allowed to hand in AI outpu
 you don't understand and present it as your own learning.
 
 It is your responsibility to make sure your work meets the standard in the LMU
-Academic Honesty Policy: https://academics.lmu.edu/honesty/
+Academic Honesty Policy: [https://academics.lmu.edu/honesty/](https://academics.lmu.edu/honesty/)
 
 ## Accommodations
 
@@ -322,20 +323,20 @@ physical, or psychiatric, and needs academic accommodations should contact the
 DSS Office as early in the semester as possible.
 
 DSS is in Daum Hall, 2nd floor, 310-338-4216. All discussions remain
-confidential. https://academics.lmu.edu/dss/
+confidential. [https://academics.lmu.edu/dss/](https://academics.lmu.edu/dss/)
 
 ## Student support and reporting
 
-Student support services are at https://studentaffairs.lmu.edu/.
+Student support services are at [https://studentaffairs.lmu.edu/](https://studentaffairs.lmu.edu/).
 
 To report sexual or interpersonal misconduct, go to
-https://studentaffairs.lmu.edu/lmucares/.
+[https://studentaffairs.lmu.edu/lmucares/](https://studentaffairs.lmu.edu/lmucares/).
 
 To report an emergency or suspicious activity,
 contact LMU Public Safety at x222 or 310-338-2893, or use the nearest emergency
 call box. In an evacuation, follow the signage to the designated safe refuge area
 and wait for instruction from Public Safety or a Building Captain.
-https://www.lmu.edu/emergency
+[https://www.lmu.edu/emergency](https://www.lmu.edu/emergency)
 
 ## Tentative nature of this syllabus
 
@@ -349,4 +350,4 @@ that way.
 We advance knowledge and develop business leaders with moral courage and creative
 confidence to be a force for good in the global community.
 
-https://cba.lmu.edu/about/mission/
+[https://cba.lmu.edu/about/mission/](https://cba.lmu.edu/about/mission/)
