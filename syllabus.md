@@ -65,8 +65,9 @@ and tools to analyze and solve a complex business problem.
 
 **Required text: Gorick Ng, *The Unspoken Rules*. Free through the LMU Library**
 at [ebookcentral.proquest.com](https://ebookcentral.proquest.com/lib/lmu/detail.action?docID=6259823).
-You do not need to buy it. We read it across the term and open each session
-discussing it, so have access sorted before Workshop 1.
+You do not need to buy it. The reading schedule is in the workshop schedule
+section below. The introduction and first two chapters are due before Workshop
+1, so have access sorted early.
 
 You will also receive links to O'Reilly resources and other online material.
 
@@ -84,6 +85,11 @@ is a problem, talk to me before you pay rather than after.
 before Friday, September 11. It takes 70 to 100 minutes and walks you through
 every account and install in the table below. Stop at the end of Part 1. Part 2
 is not assigned in this course.
+
+The reading notes template is at
+https://docs.google.com/document/d/12ArfdHGUMrj-r6mhb1EDH1f-jOTEbYOEEO1exAZsfAk/copy.
+Opening that link makes your own copy. Rename it with your last name, share it
+with me, and submit the link in Brightspace before Workshop 1.
 
 | Tool | What you use it for | Cost |
 |---|---|---|
@@ -161,9 +167,30 @@ the brief before Workshop 2.
 | 3 | Fri Oct 30 | 9:00 AM to 12:00 PM | Getting the data, especially when it is not there | Sun Nov 8 |
 | 4 | Fri Nov 13 | 9:00 AM to 12:00 PM | The unspoken rules | Sun Nov 22 |
 
-About the first thirty minutes of each session is a discussion of the chapters
-of *The Unspoken Rules* that fit that day's work. There is no separate assignment
-for the book. It lands in Workshop 4's deliverable.
+About the first thirty minutes of each session is a discussion of *The Unspoken
+Rules*. Read the chapters below before that Friday.
+
+| Before | Read |
+|---|---|
+| Workshop 1, Sep 11 | Introduction, Chapter 1 (The Three Cs), and Chapter 2 (Think, "Let's Give This a Shot!") |
+| Workshop 2, Oct 16 | Chapters 3 to 9, Show Up Like a High Performer through Manage Your Workload |
+| Workshop 3, Oct 30 | Chapter 10 (Read Between the People) and Chapter 11 (Spark Relationships) |
+| Workshop 4, Nov 13 | Chapters 12 to 15, Master Meetings through Show Your Potential, and the afterword |
+
+The reading is light before Workshop 1 because the tutorial is the pre-work
+that matters that week. It is heavy before Workshop 2 because you have five
+weeks.
+
+For each chapter, write down a question you have about the material, a quote
+worth keeping, and a comment on what you would do with it. Write all three
+within the context of the capstone project, your current job, or the job you're
+hoping for after graduation. One to three sentences each is plenty. Keep them in
+your copy of the notes template, the Google Doc you set up before Workshop 1.
+Bring them to the discussion, since that is where I will ask for them.
+
+There is no separate assignment for the book. Those notes are the raw material
+for Workshop 4's deliverable. It asks you to tie specific chapters to things
+that actually happened in workshops 1 through 3.
 
 Deliverables are due at 11:59 PM on the Sunday that closes the week after their
 workshop unless I say otherwise, which is nine days and two weekends. Every due
@@ -179,15 +206,17 @@ That does not make the work optional, and it is worth being plain about what it
 actually costs you.
 
 Before Workshop 1, complete Part 1 of the AI Dev Workflow Tutorial. That is 70
-to 100 minutes and is the only pre-work assigned before a session.
+to 100 minutes. The only other pre-work before a session is the reading, on the
+schedule above.
 
 Each workshop is three hours in session. In addition to that, expect about three
 hours of work for the workshop, which can fall before or after the session
 itself. Across four workshops, plus the pre-work, that is roughly 26 to 34 hours
 for the term.
 
-It does not arrive evenly. Most weeks ask nothing of you, and the weeks around a
-workshop ask for an afternoon. Plan for those rather than for an average.
+It does not arrive evenly. Most weeks ask for a chapter or two, and the weeks
+around a workshop ask for an afternoon. Plan for those rather than for an
+average.
 
 ## Assignment submission
 
@@ -314,7 +343,9 @@ will be announced through Brightspace and Teams, the same channels through which
 this syllabus was distributed, and you are responsible for any changes announced
 that way.
 
-## CBA mission
+## College of Business Administration mission
 
-Advance knowledge and develop business leaders with moral courage and creative
+We advance knowledge and develop business leaders with moral courage and creative
 confidence to be a force for good in the global community.
+
+https://cba.lmu.edu/about/mission/
