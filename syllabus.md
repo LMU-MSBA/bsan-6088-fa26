@@ -86,8 +86,8 @@ takes about three hours.
 The reading notes template is at
 [https://docs.google.com/document/d/12ArfdHGUMrj-r6mhb1EDH1f-jOTEbYOEEO1exAZsfAk/copy](https://docs.google.com/document/d/12ArfdHGUMrj-r6mhb1EDH1f-jOTEbYOEEO1exAZsfAk/copy).
 Opening that link makes your own copy. Rename it with your first and last name
-in the title of the document, share it with me, and submit the link with your
-Workshop 1 deliverable.
+in the title of the document, share it with greg@lontok.com, and submit the link
+with your Workshop 1 deliverable.
 
 | Tool                                               | What you use it for                         | Cost                             |
 | -------------------------------------------------- | ------------------------------------------- | -------------------------------- |
@@ -121,10 +121,19 @@ meet the standard.
 
 | Workshop | What you turn in                                                                                                                                                               |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1        | Your wiki repository, the link to your reading notes, an AI work log naming three tasks you gave the tool and what you rejected, where you would draw the confidentiality line when a client's data meets an AI tool, and the link to the dashboard you deployed in Part 2 of the tutorial |
+| 1        | Your public `meridian-capstone` repository containing the research wiki, your reading notes link, direct links to your saved Superpowers spec and implementation plan, a short confidentiality paragraph applying the client brief's data boundaries, and links to your deployed Part 2 dashboard and separate tutorial repository |
 | 2        | Your problem statement before and after the stakeholder interview, what changed it, the assumptions you are proceeding on, and the one question you wish you had asked         |
 | 3        | A data acquisition plan, a working pull from a public or third-party source with the code, a terms of use and privacy check, and your best proxy for the missing internal data |
 | 4        | A reflection tying specific chapters to something that actually happened in workshops 1 through 3, and the message you would send the stakeholder raising the real problem     |
+
+For Workshop 1, the Superpowers spec and implementation plan serve as your AI
+work log. Save, review, and approve the spec before asking for the plan. Save
+and review the plan before approving the build. In the plan, record three tasks:
+what you asked the AI to do and what came back, how you checked its work, and
+what you accepted, changed, or rejected and why. At least one review must check
+a research claim against its original source. Work from class counts; a
+separate work-log file is not required. The Brightspace assignment lists the
+required wiki contents and submission checklist.
 
 Each deliverable is assessed on three things:
 
@@ -155,7 +164,7 @@ All four workshops are anchored on one client engagement. It is fictional, and
 it is dysfunctional in the ways real engagements are: the requirements are
 vague, the stakeholder is hard to reach, the internal data you were promised
 does not exist, and some of their data may not go into an AI tool. You get the
-brief before Workshop 2.
+brief in Workshop 1.
 
 | #   | Date       | Time                | Topic                                             | Deliverable due |
 | --- | ---------- | ------------------- | ------------------------------------------------- | --------------- |

@@ -1,6 +1,6 @@
 # Client brief: Meridian Markets
 
-*You will work with this brief in all four workshops. Read it before Workshop 1.*
+*You will work with this brief in all four workshops, starting with Workshop 1.*
 
 ---
 
