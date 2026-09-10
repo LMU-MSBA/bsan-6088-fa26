@@ -4,43 +4,43 @@
 
 ---
 
-**From:** Dana Okafor, VP of Operations, Meridian Markets
-**To:** LMU MSBA workshop team
-**Re:** Store performance analysis
-**Date:** August 2026
+From: Dana Okafor, VP of Operations, Meridian Markets  
+To: LMU MSBA workshop team  
+Re: Store performance analysis  
+Date: August 2026
 
 ---
 
-Thanks for taking this on. Writing this between flights so apologies if it's
-rough.
+Thanks for taking this on. I'm writing this between flights, so apologies if
+it's rough.
 
 ## About us
 
-Meridian Markets is a specialty grocery chain. Fourteen stores across Los Angeles,
-Orange, and Ventura counties. Roughly $78M in annual revenue and about 620
-employees. We compete on prepared foods, local sourcing, and a smaller footprint
-than the national chains.
+Meridian Markets is a specialty grocery chain with fourteen stores across Los
+Angeles, Orange, and Ventura counties. We bring in roughly $78M a year and
+employ about 620 people. We compete on prepared foods, local sourcing, and a
+smaller footprint than the national chains.
 
 We've grown from six stores to fourteen in five years, mostly by taking over
 leases from chains that pulled out of neighborhoods we thought were underserved.
 
 ## What we need
 
-A dashboard that shows sales performance by store and by category, so leadership
-can decide where to open our next location.
+We need a dashboard that shows sales performance by store and by category, so
+leadership can decide where to open our next location.
 
 We know the Pasadena site is the obvious next step, but we want the data to back
 it up before we commit.
 
 ## Why now
 
-Growth has been good but it hasn't been even. Some stores took off immediately
+Growth has been good, but it hasn't been even. Some stores took off immediately
 and others have been slower to find their footing. Leadership wants a clearer
 picture before the next round of expansion, and honestly we've been making these
 calls on instinct and a spreadsheet.
 
 We'd also like to understand our customer better. We have a loyalty program with
-about 40,000 members and I don't think we've ever really used that data.
+about 40,000 members, and I don't think we've ever really used that data.
 
 ## What success looks like
 
@@ -53,7 +53,7 @@ performing, we should be able to make better decisions across the board.
 - Point-of-sale transactions, about three years' worth
 - Loyalty program membership and purchase history, roughly 40,000 members
 - Labor scheduling and hours
-- Store attributes: square footage, opening date, lease terms
+- Store attributes: square footage, opening date, and lease terms
 
 We migrated to a new POS system last spring, which has been an improvement.
 
@@ -64,10 +64,10 @@ IT can pull an extract for you once the NDA is signed. Ask for Marcus.
 An NDA will follow this brief and covers everything below.
 
 **Customer records and employee data do not go into ChatGPT, Claude, Copilot,
-or any other AI tool.** Not the loyalty file, not the labor schedules, not
-excerpts of them. Our counsel is firm on this and it is not negotiable. Sales
-totals by store and week, and the store attributes, are fine to use with those
-tools. We understand you use them on your own work.
+or any other AI tool.** That includes the loyalty program data, the labor
+schedules, and any excerpts of them. Our counsel is firm on this, and it is not
+negotiable. Sales totals by store and week, and the store attributes, are fine
+to use with those tools. We understand you use them on your own work.
 
 ## Timeline
 
@@ -76,10 +76,10 @@ board when they meet in three weeks, even if it's preliminary.
 
 ## Reaching me
 
-Email is best. I travel Tuesdays and Wednesdays and I am slow to reply, so please
+Email is best. I travel Tuesdays and Wednesdays and I'm slow to reply, so please
 don't take silence as a problem. My assistant can schedule time but can't answer
-questions about the analytics.
+questions about the analytics. If anything here is unclear, ask.
 
-Looking forward to seeing what you find.
+I'm looking forward to seeing what you find.
 
 Dana
