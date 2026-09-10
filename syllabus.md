@@ -78,8 +78,10 @@ Set up your tools before Workshop 1 by completing Part 1 of the AI Dev Workflow
 Tutorial at
 [https://github.com/LMU-ISBA/ai-dev-workflow-tutorial](https://github.com/LMU-ISBA/ai-dev-workflow-tutorial).
 Do it before Friday, September 11. It takes 70 to 100 minutes and walks you
-through every account and install in the table below. Stop at the end of Part 1.
-Part 2 is not assigned in this course.
+through every account and install in the table below, apart from the two
+optional tools at the end. Part 2 builds and deploys a dashboard with the same
+tools and is homework after Workshop 1, due with the Workshop 1 deliverable. It
+takes about three hours.
 
 The reading notes template is at
 [https://docs.google.com/document/d/12ArfdHGUMrj-r6mhb1EDH1f-jOTEbYOEEO1exAZsfAk/copy](https://docs.google.com/document/d/12ArfdHGUMrj-r6mhb1EDH1f-jOTEbYOEEO1exAZsfAk/copy).
@@ -92,18 +94,17 @@ Workshop 1 deliverable.
 | [Claude Pro](https://claude.ai)                    | The subscription that gives you Claude Code | $20/month                        |
 | [Claude Code](https://claude.com/claude-code)      | The AI agent you work with                  | Included with Pro                |
 | [GitHub](https://github.com)                       | Where your work lives                       | Free                             |
-| [Cursor](https://cursor.com)                       | Editor                                      | Free                             |
+| [VS Code](https://code.visualstudio.com)           | Editor                                      | Free                             |
 | [Git](https://git-scm.com)                         | Version control                             | Free                             |
 | [Python 3.11+](https://www.python.org)             | Runs the workshop tools                     | Free                             |
 | [Superpowers](https://github.com/obra/superpowers) | Claude Code plugin                          | Free                             |
-| [Granola](https://www.granola.ai/students)         | AI meeting notes                            | Free for 12 months, student plan |
-| [Wispr Flow](https://wisprflow.ai/students)        | Voice dictation                             | Free for 3 months, student plan  |
+| [Granola](https://www.granola.ai/students)         | AI meeting notes, optional                  | Free for 12 months, student plan |
+| [Wispr Flow](https://wisprflow.ai/students)        | Voice dictation, optional                   | Free for 3 months, student plan  |
 
-Granola and Wispr Flow are required. Apply for the student plans at the links
-above before you sign up any other way. Granola's runs twelve months and Wispr
-Flow's runs three, so neither should cost you anything this term. You will use
-both again in the Summer Capstone. Wispr Flow's three months end before summer,
-and whether to keep it for the capstone is up to you.
+Granola and Wispr Flow are optional. If you want to try them, apply for the
+student plans at the links above before you sign up any other way. Granola's
+runs twelve months and Wispr Flow's runs three, so neither should cost you
+anything this term. You will meet both again in the Summer Capstone.
 
 You need a computer capable of running these tools, and a working microphone.
 Workshops are hands-on, so plan to work along rather than watch.
@@ -120,7 +121,7 @@ meet the standard.
 
 | Workshop | What you turn in                                                                                                                                                               |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1        | Your wiki repository, the link to your reading notes, an AI work log naming three tasks you gave the tool and what you rejected, and where you would draw the confidentiality line when a client's data meets an AI tool          |
+| 1        | Your wiki repository, the link to your reading notes, an AI work log naming three tasks you gave the tool and what you rejected, where you would draw the confidentiality line when a client's data meets an AI tool, and the link to the dashboard you deployed in Part 2 of the tutorial |
 | 2        | Your problem statement before and after the stakeholder interview, what changed it, the assumptions you are proceeding on, and the one question you wish you had asked         |
 | 3        | A data acquisition plan, a working pull from a public or third-party source with the code, a terms of use and privacy check, and your best proxy for the missing internal data |
 | 4        | A reflection tying specific chapters to something that actually happened in workshops 1 through 3, and the message you would send the stakeholder raising the real problem     |
@@ -201,11 +202,13 @@ This course carries no units, so LMU's credit hour policy does not set the load.
 That doesn't make the work optional.
 
 Before Workshop 1, complete Part 1 of the AI Dev Workflow Tutorial. That is 70
-to 100 minutes. The other pre-work before a session is the reading, on the
-schedule above.
+to 100 minutes. After Workshop 1, complete Part 2, which is about three hours
+and is due with the Workshop 1 deliverable. The other pre-work before a session
+is the reading, on the schedule above.
 
 Each workshop is three hours in session. Expect about two to three more hours of
-work for each workshop, before or after the session itself.
+work for each workshop, before or after the session itself. Workshop 1 carries
+the tutorial on top of that.
 
 ## Assignment submission
 
