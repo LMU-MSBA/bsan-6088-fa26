@@ -128,10 +128,10 @@ meet the standard.
 
 For Workshop 1, the Superpowers spec and implementation plan serve as your AI
 work log. Save, review, and approve the spec before asking for the plan. Save
-and review the plan before approving the build. In the plan, record three tasks:
-what you asked the AI to do and what came back, how you checked its work, and
-what you accepted, changed, or rejected and why. At least one review must check
-a research claim against its original source. Work from class counts; a
+and review the plan before approving the build. The corrections you ask for
+are recorded in those files. Be ready to explain what you asked the AI to do,
+how you checked its work, and what you accepted, changed, or rejected and
+why. Work from class counts; a
 separate work-log file is not required. The Brightspace assignment lists the
 required wiki contents and submission checklist.
 

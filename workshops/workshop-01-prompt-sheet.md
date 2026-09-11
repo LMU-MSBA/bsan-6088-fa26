@@ -64,16 +64,13 @@ an implementation plan and save it in docs/superpowers/plans/.
 Include setting up the wiki, ingesting the first public source, adding
 further sources I choose, and checking answers against the evidence.
 For each task, state what a completed result looks like and how to check it.
-Include a Review notes section where I can record what I requested, what
-came back, my actual check, and what I accepted, changed, or rejected and why.
-Leave those notes unfilled until I report what I actually did.
 Show me the saved plan's path and pause before building.
 ```
 
 Open the saved file in `docs/superpowers/plans/`. Check that the tasks match
-your spec and say how to verify the results. The Review notes section will
-hold your actual checks and decisions as you work. Both files must exist
-before you approve the build.
+your spec and say how to verify the results. The spec and plan are your work
+log, so ask for corrections until the saved files say what you decided. Both
+files must exist before you approve the build.
 
 ## 3. Build the initial wiki
 
@@ -86,7 +83,7 @@ files for review. Wait for my approval before ingesting a source.
 ```
 
 Open the project instructions, `wiki/index.md`, and `wiki/log.md`. Compare them
-with the spec. Record your first task review using step 7 below.
+with the spec and ask for corrections as needed.
 
 ## 4. Ingest and check the first source
 
@@ -102,8 +99,7 @@ instructions. Show me the pages you changed and pause for my review.
 
 Open the original source beside the wiki summary. Find the passage supporting
 one claim. Check the date, what any number measures, and any qualification.
-Record the claim, source location, result of your check, and decision using
-step 7. This is your second task review.
+If the wiki page misstates the source, ask the agent to correct it.
 
 ## 5. Start your second source
 
@@ -123,7 +119,8 @@ instructions. Show me the pages you changed and pause for my review.
 
 When it pauses, glance at the changed pages and move on to step 6. Checking
 this source closely is homework: open the original beside the wiki summary,
-find the passage behind one claim, and record the check using step 7. Then add
+find the passage behind one claim, and ask for a correction if the page
+misstates it. Then add
 at least one more source you choose, so your wiki has at least three public
 sources ingested. The client brief does not count toward them.
 
@@ -144,40 +141,22 @@ and what additional information would be needed.
 
 Check whether the answer stays within the evidence. An honest statement that
 information is missing can be a good answer. Identify one useful question to
-ask Dana based on what you learned. Record this answer-evaluation task using
-step 7. This is your third task review.
+ask Dana based on what you learned and keep it for Workshop 2.
 
-## 7. Record your review after each task
-
-Tell the agent what you requested, what came back, the check you actually
-performed, what you found, and what you accepted, changed, or rejected and why.
-Then use:
-
-```text
-Add the review I just described to the saved implementation plan under
-Review notes, identifying the task. Use only the checks and decisions I
-reported. If anything is missing, ask me. Update the task status to match
-what we actually completed, and show me the saved entry for review.
-```
-
-Read the saved entry and correct anything inaccurate. A few bullets per task
-are enough. Acceptance after checking is valid; do not invent a rejection.
-Your spec and annotated plan serve as the work log. `wiki/log.md` separately
-records wiki updates.
-
-## 8. Review, commit, push, and check GitHub
+## 7. Review, commit, push, and check GitHub
 
 Ask the agent to explain the changes and help you review them. After reviewing:
 
 ```text
-Commit and push the changes I just reviewed to my meridian-capstone repo.
-Include the saved spec, implementation plan and my review notes, project
-instructions, source material, and wiki pages. Report any failure instead
-of claiming the push succeeded. Give me the GitHub links to the spec and plan.
+Update the task statuses in the plan to match what we completed. Then
+commit and push the changes I just reviewed to my meridian-capstone repo.
+Include the saved spec, implementation plan, project instructions, source
+material, and wiki pages. Report any failure instead of claiming the
+push succeeded. Give me the GitHub links to the spec and plan.
 ```
 
-Open the actual spec and plan on GitHub and check that all three task reviews
-are visible. Check your public repo in a signed-out browser window. You do not
+Open the actual spec and plan on GitHub and check that they are the versions
+you reviewed. Check your public repo in a signed-out browser window. You do not
 need to memorize Git commands; you do need to verify that the files reached
 GitHub.
 
