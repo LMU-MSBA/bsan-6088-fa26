@@ -74,10 +74,16 @@ Annual billing costs less per month but commits you to twelve, so only choose it
 if you expect to keep using it past November. If the cost is a problem, talk to
 me before you pay.
 
+If you already pay for ChatGPT, it includes Codex, OpenAI's coding agent, which
+does the same job as Claude Code, and the Superpowers plugin runs on it. Don't
+buy a second subscription. Follow the tutorial's Codex companion at
+[https://github.com/LMU-ISBA/ai-dev-workflow-tutorial/blob/main/codex-companion.md](https://github.com/LMU-ISBA/ai-dev-workflow-tutorial/blob/main/codex-companion.md)
+wherever the tutorial says Claude Code.
+
 Set up your tools before Workshop 1 by completing Part 1 of the AI Dev Workflow
 Tutorial at
 [https://github.com/LMU-ISBA/ai-dev-workflow-tutorial](https://github.com/LMU-ISBA/ai-dev-workflow-tutorial).
-Do it before Friday, September 11. It takes 70 to 100 minutes and walks you
+Do it before Friday, September 11. It takes 55 to 80 minutes and walks you
 through every account and install in the table below, apart from the two
 optional tools at the end. Part 2 builds and deploys a dashboard with the same
 tools and is homework after Workshop 1, due with the Workshop 1 deliverable. It
@@ -97,7 +103,8 @@ with your Workshop 1 deliverable.
 | [VS Code](https://code.visualstudio.com)           | Editor                                      | Free                             |
 | [Git](https://git-scm.com)                         | Version control                             | Free                             |
 | [Python 3.11+](https://www.python.org)             | Runs the workshop tools                     | Free                             |
-| [Superpowers](https://github.com/obra/superpowers) | Claude Code plugin                          | Free                             |
+| [Superpowers](https://github.com/obra/superpowers) | Planning skills plugin for either agent     | Free                             |
+| [Codex](https://github.com/LMU-ISBA/ai-dev-workflow-tutorial/blob/main/codex-companion.md) | Alternative to Claude Code if you already pay for ChatGPT | Included with ChatGPT Plus |
 | [Granola](https://www.granola.ai/students)         | AI meeting notes, optional                  | Free for 12 months, student plan |
 | [Wispr Flow](https://wisprflow.ai/students)        | Voice dictation, optional                   | Free for 3 months, student plan  |
 
@@ -131,9 +138,9 @@ work log. Save, review, and approve the spec before asking for the plan. Save
 and review the plan before approving the build. The corrections you ask for
 are recorded in those files. Be ready to explain what you asked the AI to do,
 how you checked its work, and what you accepted, changed, or rejected and
-why. Work from class counts; a
-separate work-log file is not required. The Brightspace assignment lists the
-required wiki contents and submission checklist.
+why. Work from class counts, and a separate work-log file is not required. The
+Brightspace assignment lists the required wiki contents and submission
+checklist.
 
 Each deliverable is assessed on three things:
 
@@ -210,8 +217,8 @@ credit/no credit grading.
 This course carries no units, so LMU's credit hour policy does not set the load.
 That doesn't make the work optional.
 
-Before Workshop 1, complete Part 1 of the AI Dev Workflow Tutorial. That is 70
-to 100 minutes. After Workshop 1, complete Part 2, which is about three hours
+Before Workshop 1, complete Part 1 of the AI Dev Workflow Tutorial. That is 55
+to 80 minutes. After Workshop 1, complete Part 2, which is about three hours
 and is due with the Workshop 1 deliverable. The other pre-work before a session
 is the reading, on the schedule above.
 
