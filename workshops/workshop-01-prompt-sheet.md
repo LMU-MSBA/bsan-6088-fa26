@@ -62,8 +62,10 @@ Do not build until I approve the plan.
 ```
 
 Open the saved file in `docs/superpowers/plans/`. Check that the tasks match
-your spec and say how to verify the results. The tasks should cover setting up
-the wiki, ingesting your sources, and checking answers against them. The spec
+your spec and say how to verify the results. The first task should set up the
+wiki and ingest the client brief already in `raw/`; if it doesn't, ask for that
+change. Later tasks should cover ingesting public sources and checking answers
+against them. The spec
 and plan are your work log, so ask for corrections until the saved files say
 what you decided. Both files must exist before you approve the build.
 
@@ -74,15 +76,16 @@ inline. Choose inline so every change happens in front of you. This prompt
 answers that question:
 
 ```text
-I approve the plan. Execute inline, in this session.
-Do only the first task, the initial wiki setup.
-Show me the changed files and stop before ingesting a source.
+I approve the plan. Execute inline.
+Do only the first task.
+Show me the changed files and stop.
 ```
 
-Open the project instructions, `wiki/index.md`, and `wiki/log.md`. Compare them
-with the spec and ask for corrections as needed.
+Open the project instructions, `wiki/index.md`, `wiki/log.md`, and the page
+built from the brief. Compare them with the spec and ask for corrections as
+needed.
 
-## 5. Ingest and check the first source
+## 5. Ingest and check the first public source
 
 Put the instructor-provided source URL on the last line:
 
