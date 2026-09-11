@@ -115,6 +115,18 @@ Open the original source beside the wiki summary. Find the passage supporting
 one claim. Check the date, what any number measures, and any qualification.
 If the wiki page misstates the source, ask the agent to correct it.
 
+Then push, so you can see the wiki on GitHub:
+
+```text
+Commit and push everything to GitHub.
+Tell me if anything fails.
+Give me the GitHub link to wiki/index.md.
+```
+
+Open that link. GitHub renders the index as a page, and its links open each
+wiki page. The link has the form
+`https://github.com/<your-username>/meridian-capstone/blob/main/wiki/index.md`.
+
 ## 7. Start your second source
 
 Choose a public source yourself, based on the one thing you wrote down to
