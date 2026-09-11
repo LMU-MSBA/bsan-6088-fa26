@@ -146,7 +146,8 @@ sources ingested. The client brief does not count toward them.
 
 ```text
 What do our sources say about where specialty grocers are opening?
-Cite the evidence and distinguish the source's claims from inference.
+Cite the source for each claim. If you add a conclusion the sources
+don't state, label it as your own.
 ```
 
 Follow a citation through the wiki page to the original source. Then ask:
