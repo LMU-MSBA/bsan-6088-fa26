@@ -150,7 +150,15 @@ Cite the source for each claim. If you add a conclusion the sources
 don't state, label it as your own.
 ```
 
-Follow a citation through the wiki page to the original source. Then ask:
+Follow a citation through the wiki page to the original source. Then file the
+answer, so the wiki keeps what you learned:
+
+```text
+File that answer in the wiki as a page with its citations.
+Add it to the index and log it.
+```
+
+Open the new page and check that the citations survived. Then ask:
 
 ```text
 Which of Meridian's fourteen stores is underperforming, and why?
@@ -159,8 +167,10 @@ and what additional information would be needed.
 ```
 
 Check whether the answer stays within the evidence. An honest statement that
-information is missing can be a good answer. Identify one useful question to
-ask Dana based on what you learned and keep it for Workshop 2.
+information is missing can be a good answer. File this one too, with the same
+prompt; a page that says what we don't know and what would answer it is worth
+keeping. Identify one useful question to ask Dana based on what you learned
+and keep it for Workshop 2.
 
 ## 9. Review, commit, push, and check GitHub
 
