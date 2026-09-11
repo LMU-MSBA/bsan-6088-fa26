@@ -30,23 +30,11 @@ For every task, ask yourself:
 ## 1. Brainstorm and save the spec
 
 ```text
-Use Superpowers to brainstorm a small research wiki with me in this
-meridian-capstone repository. Read raw/client-brief.md. The purpose is to
-understand Southern California specialty grocery before interviewing
-Meridian's leadership. This is a fictional client and a public repository.
-Use the LLM wiki pattern at
-https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
-as a reference. If you cannot read it, tell me and pause for a local copy.
-
-Ask at most four clarifying questions, one at a time. Keep this first
-design focused on raw/ for sources, wiki/ for cited pages, wiki/index.md,
-wiki/log.md, and concise instructions in CLAUDE.md (or this agent's
-equivalent project instructions file). Preserve the original sources. Use
-the provided brief and public research; apply the brief's data boundaries.
-
-Save our agreed design as a Markdown spec in docs/superpowers/specs/.
-Show me its path and pause for my review. Do not write the implementation
-plan or build the wiki until I approve the preceding stage.
+Help me design a research wiki to prepare for the Meridian stakeholder interview.
+Interview me one question at a time with multiple-choice options.
+Do not plan or build until I approve the design.
+Read @raw/client-brief.md.
+Follow the LLM wiki pattern at https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f.
 ```
 
 Answer the clarifying questions from your understanding of the brief. In VS
@@ -59,27 +47,24 @@ needed. If the design is only in chat, ask the agent to save the Markdown file.
 Use this after reviewing the spec:
 
 ```text
-I have reviewed the saved spec and approve it. Use Superpowers to write
-an implementation plan and save it in docs/superpowers/plans/.
-Include setting up the wiki, ingesting the first public source, adding
-further sources I choose, and checking answers against the evidence.
-For each task, state what a completed result looks like and how to check it.
-Show me the saved plan's path and pause before building.
+I approve the design. Write the implementation plan.
+For each task, say what done looks like and how I check it.
+Do not build until I approve the plan.
 ```
 
 Open the saved file in `docs/superpowers/plans/`. Check that the tasks match
-your spec and say how to verify the results. The spec and plan are your work
-log, so ask for corrections until the saved files say what you decided. Both
-files must exist before you approve the build.
+your spec and say how to verify the results. The tasks should cover setting up
+the wiki, ingesting your sources, and checking answers against them. The spec
+and plan are your work log, so ask for corrections until the saved files say
+what you decided. Both files must exist before you approve the build.
 
 ## 3. Build the initial wiki
 
 After reviewing the plan:
 
 ```text
-I have reviewed and approve the saved implementation plan. Carry out only
-the initial wiki setup task now. Pause afterward and show me the changed
-files for review. Wait for my approval before ingesting a source.
+I approve the plan. Do only the first task, the initial wiki setup.
+Show me the changed files and stop before ingesting a source.
 ```
 
 Open the project instructions, `wiki/index.md`, and `wiki/log.md`. Compare them
@@ -87,14 +72,14 @@ with the spec and ask for corrections as needed.
 
 ## 4. Ingest and check the first source
 
-Paste the instructor-provided source URL into the same message as this prompt:
+Put the instructor-provided source URL on the last line:
 
 ```text
-Continue with the first-source task in the approved plan. Retrieve the
-public source at the URL I provide and save its readable content under
-raw/, retaining its title and original URL. If retrieval is incomplete
-or fails, report that and stop for my help. Ingest it following the project
-instructions. Show me the pages you changed and pause for my review.
+Do the next task in the plan: ingest the source at the URL below.
+Keep the original in raw/ with its title and URL.
+If the fetch fails, stop and tell me.
+Show me the changed pages and stop.
+<paste the source URL>
 ```
 
 Open the original source beside the wiki summary. Find the passage supporting
@@ -104,18 +89,11 @@ If the wiki page misstates the source, ask the agent to correct it.
 ## 5. Start your second source
 
 Choose a public source yourself, based on the one thing you wrote down to
-research before meeting Dana. Paste its URL into the same message as this
-prompt. If you're stuck for one, or the fetch fails, pick from the fallback list
-at
+research before meeting Dana. If you're stuck for one, or the fetch fails, pick
+from the fallback list at
 https://github.com/LMU-MSBA/bsan-6088-fa26/blob/main/workshops/workshop-01-sources.md.
 
-```text
-Continue with the next source task in the approved plan for the URL I
-provide. Retrieve the public source and save its readable content under
-raw/, retaining its title and original URL. If retrieval is incomplete or
-fails, report that and stop for my help. Ingest it following the project
-instructions. Show me the pages you changed and pause for my review.
-```
+Use the step 4 prompt again, with your URL on the last line.
 
 When it pauses, glance at the changed pages and move on to step 6. Checking
 this source closely is homework: open the original beside the wiki summary,
@@ -148,11 +126,10 @@ ask Dana based on what you learned and keep it for Workshop 2.
 Ask the agent to explain the changes and help you review them. After reviewing:
 
 ```text
-Update the task statuses in the plan to match what we completed. Then
-commit and push the changes I just reviewed to my meridian-capstone repo.
-Include the saved spec, implementation plan, project instructions, source
-material, and wiki pages. Report any failure instead of claiming the
-push succeeded. Give me the GitHub links to the spec and plan.
+Update the task statuses in the plan to match what we completed.
+Commit and push everything to GitHub.
+Tell me if anything fails.
+Give me the GitHub links to the spec and plan.
 ```
 
 Open the actual spec and plan on GitHub and check that they are the versions
