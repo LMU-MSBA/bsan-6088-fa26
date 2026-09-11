@@ -1,9 +1,11 @@
 # Workshop 01: public sources for the research wiki
 
-Use these for the Meridian research wiki. In the workshop you ingest one source
-with the URL I give you. For homework, pick at least one more source from this
-list and repeat the same steps, so your wiki has at least two public sources
-ingested. The client brief does not count as a public source.
+This list is a fallback, not the assignment. In the workshop, the first source
+you ingest is the one I give you. The second is one you find yourself, based on
+what you want to know before meeting Dana. For homework, add at least one more
+source you choose. If a fetch fails or you're stuck for a source, pick one from
+here. Your wiki needs at least three public sources ingested by September 20,
+and the client brief doesn't count as one.
 
 Save each source under `raw/` with its title and original URL, and read what
 your agent actually retrieved before you ingest it. If the fetch comes back

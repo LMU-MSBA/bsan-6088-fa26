@@ -61,8 +61,8 @@ Use this after reviewing the spec:
 ```text
 I have reviewed the saved spec and approve it. Use Superpowers to write
 an implementation plan and save it in docs/superpowers/plans/.
-Include setting up the wiki, ingesting the first public source, adding a
-second public source afterward, and checking answers against the evidence.
+Include setting up the wiki, ingesting the first public source, adding
+further sources I choose, and checking answers against the evidence.
 For each task, state what a completed result looks like and how to check it.
 Include a Review notes section where I can record what I requested, what
 came back, my actual check, and what I accepted, changed, or rejected and why.
@@ -86,7 +86,7 @@ files for review. Wait for my approval before ingesting a source.
 ```
 
 Open the project instructions, `wiki/index.md`, and `wiki/log.md`. Compare them
-with the spec. Record your first task review using step 6 below.
+with the spec. Record your first task review using step 7 below.
 
 ## 4. Ingest and check the first source
 
@@ -103,18 +103,34 @@ instructions. Show me the pages you changed and pause for my review.
 Open the original source beside the wiki summary. Find the passage supporting
 one claim. Check the date, what any number measures, and any qualification.
 Record the claim, source location, result of your check, and decision using
-step 6. This is your second task review.
+step 7. This is your second task review.
 
-For homework, repeat this process with at least one more public source from
-the list at
+## 5. Start your second source
+
+Choose a public source yourself, based on the one thing you wrote down to
+research before meeting Dana. Paste its URL into the same message as this
+prompt. If you're stuck for one, or the fetch fails, pick from the fallback list
+at
 https://github.com/LMU-MSBA/bsan-6088-fa26/blob/main/workshops/workshop-01-sources.md.
-Your wiki needs at least two public sources ingested. The client brief does not
-count toward them.
-
-## 5. Ask a question and judge the answer
 
 ```text
-What does our source say about where specialty grocers are opening?
+Continue with the next source task in the approved plan for the URL I
+provide. Retrieve the public source and save its readable content under
+raw/, retaining its title and original URL. If retrieval is incomplete or
+fails, report that and stop for my help. Ingest it following the project
+instructions. Show me the pages you changed and pause for my review.
+```
+
+When it pauses, glance at the changed pages and move on to step 6. Checking
+this source closely is homework: open the original beside the wiki summary,
+find the passage behind one claim, and record the check using step 7. Then add
+at least one more source you choose, so your wiki has at least three public
+sources ingested. The client brief does not count toward them.
+
+## 6. Ask a question and judge the answer
+
+```text
+What do our sources say about where specialty grocers are opening?
 Cite the evidence and distinguish the source's claims from inference.
 ```
 
@@ -129,9 +145,9 @@ and what additional information would be needed.
 Check whether the answer stays within the evidence. An honest statement that
 information is missing can be a good answer. Identify one useful question to
 ask Dana based on what you learned. Record this answer-evaluation task using
-step 6. This is your third task review.
+step 7. This is your third task review.
 
-## 6. Record your review after each task
+## 7. Record your review after each task
 
 Tell the agent what you requested, what came back, the check you actually
 performed, what you found, and what you accepted, changed, or rejected and why.
@@ -149,7 +165,7 @@ are enough. Acceptance after checking is valid; do not invent a rejection.
 Your spec and annotated plan serve as the work log. `wiki/log.md` separately
 records wiki updates.
 
-## 7. Review, commit, push, and check GitHub
+## 8. Review, commit, push, and check GitHub
 
 Ask the agent to explain the changes and help you review them. After reviewing:
 
