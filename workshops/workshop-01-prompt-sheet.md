@@ -101,12 +101,13 @@ before any public source goes in.
 
 ## 6. Ingest and check the first public source
 
-Put the instructor-provided source URL on the last line:
+The first source is ICSC's April 24, 2026 article on grocery formats and store
+growth. The link is already on the last line:
 
 ```text
 Ingest the source at the URL below.
 Show me the changed pages and stop.
-<paste the source URL>
+https://www.icsc.com/news-and-views/icsc-exchange/new-grocery-formats-store-growth-and-investment-signal-sector-in-motion
 ```
 
 Open the original source beside the wiki summary. Find the passage supporting
@@ -120,7 +121,7 @@ research before meeting Dana. If you're stuck for one, or the fetch fails, pick
 from the fallback list at
 https://github.com/LMU-MSBA/bsan-6088-fa26/blob/main/workshops/workshop-01-sources.md.
 
-Use the step 6 prompt again, with your URL on the last line.
+Use the step 6 prompt again, with your URL in place of the ICSC link.
 
 When it pauses, glance at the changed pages and move on to step 8. Checking
 this source closely is homework: open the original beside the wiki summary,
