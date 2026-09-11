@@ -44,7 +44,7 @@ summarizes the design, ask for changes until it matches what you want.
 
 ```text
 I approve the design. Write the spec.
-Do not write the plan until I approve the spec.
+Do not write the implementation plan until I approve the spec.
 ```
 
 In VS Code, expand `docs/superpowers/specs/` and open the saved spec. Read the
