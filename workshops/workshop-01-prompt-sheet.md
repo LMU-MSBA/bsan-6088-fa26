@@ -119,7 +119,6 @@ Then push, so you can see the wiki on GitHub:
 
 ```text
 Commit and push everything to GitHub.
-Tell me if anything fails.
 Give me the GitHub link to wiki/index.md.
 ```
 
