@@ -1,8 +1,9 @@
 # Workshop 01: public sources for the research wiki
 
 Use these for the Meridian research wiki. In the workshop you ingest one source
-with the URL I give you. For homework, pick a second source from this list and
-repeat the same steps. The client brief does not count as a public source.
+with the URL I give you. For homework, pick at least one more source from this
+list and repeat the same steps, so your wiki has at least two public sources
+ingested. The client brief does not count as a public source.
 
 Save each source under `raw/` with its title and original URL, and read what
 your agent actually retrieved before you ingest it. If the fetch comes back
@@ -34,5 +35,5 @@ These are data portals rather than articles. They come back in Workshop 3, when
 we look for data the client doesn't have.
 
 - USDA Food Access Research Atlas.
-  https://www.ers.usda.gov/data-products/food-access-research-atlas/
+  https://www.ers.usda.gov/data-products/food-access-research-atlas
 - Census American Community Survey. https://www.census.gov/programs-surveys/acs

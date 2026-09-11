@@ -105,9 +105,11 @@ one claim. Check the date, what any number measures, and any qualification.
 Record the claim, source location, result of your check, and decision using
 step 6. This is your second task review.
 
-For homework, repeat this process with a second public source from the list at
+For homework, repeat this process with at least one more public source from
+the list at
 https://github.com/LMU-MSBA/bsan-6088-fa26/blob/main/workshops/workshop-01-sources.md.
-The client brief does not count toward the two public sources.
+Your wiki needs at least two public sources ingested. The client brief does not
+count toward them.
 
 ## 5. Ask a question and judge the answer
 
