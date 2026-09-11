@@ -158,19 +158,9 @@ File that answer in the wiki as a page with its citations.
 Add it to the index and log it.
 ```
 
-Open the new page and check that the citations survived. Then ask:
-
-```text
-Which of Meridian's fourteen stores is underperforming, and why?
-Explain what the available sources establish, what they do not establish,
-and what additional information would be needed.
-```
-
-Check whether the answer stays within the evidence. An honest statement that
-information is missing can be a good answer. File this one too, with the same
-prompt; a page that says what we don't know and what would answer it is worth
-keeping. Identify one useful question to ask Dana based on what you learned
-and keep it for Workshop 2.
+Open the new page and check that the citations survived. Then identify one
+useful question to ask Dana based on what you learned and keep it for
+Workshop 2.
 
 ## 9. Review, commit, push, and check GitHub
 
