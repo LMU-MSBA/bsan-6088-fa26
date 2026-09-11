@@ -105,8 +105,6 @@ Put the instructor-provided source URL on the last line:
 
 ```text
 Ingest the source at the URL below.
-Keep the original in raw/ with its title and URL.
-If the fetch fails, stop and tell me.
 Show me the changed pages and stop.
 <paste the source URL>
 ```
