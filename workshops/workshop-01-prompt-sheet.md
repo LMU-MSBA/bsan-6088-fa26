@@ -27,31 +27,37 @@ For every task, ask yourself:
 2. How will you check its work?
 3. What will you accept, change, or reject, and why?
 
-## 1. Brainstorm the design and review the spec
+## 1. Brainstorm the design
 
 ```text
 Help me design a research wiki to prepare for the Meridian stakeholder interview.
 Interview me one question at a time with multiple-choice options.
-When I confirm the design, write the spec.
-Do not write the plan or build until I approve the spec.
+Do not write the spec until I approve the design.
 Read @raw/client-brief.md.
 Follow the LLM wiki pattern at https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f.
 ```
 
 Answer the questions from your understanding of the brief. When the agent
-summarizes the design, confirm it or ask for changes. It then writes the spec.
-In VS Code, expand `docs/superpowers/specs/` and open it. Read the purpose,
-source handling, data boundaries, and proposed result, and push back on anything
-to change. Approve it only when the file says what you decided. If the design is
-only in chat, ask the agent to save the Markdown file.
+summarizes the design, ask for changes until it matches what you want.
 
-## 2. Approve the spec and write the plan
+## 2. Approve the design and write the spec
 
-Use this after reviewing the spec:
+```text
+I approve the design. Write the spec.
+Do not write the plan until I approve the spec.
+```
+
+In VS Code, expand `docs/superpowers/specs/` and open the saved spec. Read the
+purpose, source handling, data boundaries, and proposed result, and push back
+on anything to change. Approve it only when the file says what you decided. If
+the spec is only in chat, ask the agent to save the Markdown file.
+
+## 3. Approve the spec and write the plan
 
 ```text
 I approve the spec. Write the implementation plan.
 For each task, say what done looks like and how I check it.
+If the spec leaves a choice open, ask me before deciding.
 Do not build until I approve the plan.
 ```
 
@@ -61,7 +67,7 @@ the wiki, ingesting your sources, and checking answers against them. The spec
 and plan are your work log, so ask for corrections until the saved files say
 what you decided. Both files must exist before you approve the build.
 
-## 3. Approve the plan and build the initial wiki
+## 4. Approve the plan and build the initial wiki
 
 After reviewing the plan:
 
@@ -73,7 +79,7 @@ Show me the changed files and stop before ingesting a source.
 Open the project instructions, `wiki/index.md`, and `wiki/log.md`. Compare them
 with the spec and ask for corrections as needed.
 
-## 4. Ingest and check the first source
+## 5. Ingest and check the first source
 
 Put the instructor-provided source URL on the last line:
 
@@ -89,23 +95,23 @@ Open the original source beside the wiki summary. Find the passage supporting
 one claim. Check the date, what any number measures, and any qualification.
 If the wiki page misstates the source, ask the agent to correct it.
 
-## 5. Start your second source
+## 6. Start your second source
 
 Choose a public source yourself, based on the one thing you wrote down to
 research before meeting Dana. If you're stuck for one, or the fetch fails, pick
 from the fallback list at
 https://github.com/LMU-MSBA/bsan-6088-fa26/blob/main/workshops/workshop-01-sources.md.
 
-Use the step 4 prompt again, with your URL on the last line.
+Use the step 5 prompt again, with your URL on the last line.
 
-When it pauses, glance at the changed pages and move on to step 6. Checking
+When it pauses, glance at the changed pages and move on to step 7. Checking
 this source closely is homework: open the original beside the wiki summary,
 find the passage behind one claim, and ask for a correction if the page
 misstates it. Then add
 at least one more source you choose, so your wiki has at least three public
 sources ingested. The client brief does not count toward them.
 
-## 6. Ask a question and judge the answer
+## 7. Ask a question and judge the answer
 
 ```text
 What do our sources say about where specialty grocers are opening?
@@ -124,7 +130,7 @@ Check whether the answer stays within the evidence. An honest statement that
 information is missing can be a good answer. Identify one useful question to
 ask Dana based on what you learned and keep it for Workshop 2.
 
-## 7. Review, commit, push, and check GitHub
+## 8. Review, commit, push, and check GitHub
 
 Ask the agent to explain the changes and help you review them. After reviewing:
 
