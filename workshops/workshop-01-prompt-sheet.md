@@ -62,10 +62,11 @@ Do not build until I approve the plan.
 ```
 
 Open the saved file in `docs/superpowers/plans/`. Check that the tasks match
-your spec and say how to verify the results. The first task should set up the
-wiki and ingest the client brief already in `raw/`; if it doesn't, ask for that
-change. Later tasks should cover ingesting public sources and checking answers
-against them. The spec
+your spec and say how to verify the results. The plan builds the wiki: the
+folders, the project instructions with the ingest and answer procedures, the
+index, the log, and the client brief already in `raw/` as the first content. If
+it includes ingesting specific public sources or answering questions, ask to
+remove those; they happen after the build, in steps 6 to 8. The spec
 and plan are your work log, so ask for corrections until the saved files say
 what you decided. Both files must exist before you approve the build.
 
@@ -81,11 +82,24 @@ Do only the first task.
 Show me the changed files and stop.
 ```
 
-Open the project instructions, `wiki/index.md`, `wiki/log.md`, and the page
-built from the brief. Compare them with the spec and ask for corrections as
-needed.
+Open the changed files and compare them with the spec. Ask for corrections as
+needed. If the first task was small, this takes a minute.
 
-## 5. Ingest and check the first public source
+## 5. Finish the plan
+
+Run each remaining task the same way, one at a time:
+
+```text
+Do the next task in the plan.
+Show me the changed files and stop.
+```
+
+Check the files after each task. When the last task is done, open the project
+instructions, `wiki/index.md`, `wiki/log.md`, and the page built from the brief.
+Compare them with the spec and ask for corrections as needed. The build is done
+before any public source goes in.
+
+## 6. Ingest and check the first public source
 
 Put the instructor-provided source URL on the last line:
 
@@ -101,23 +115,23 @@ Open the original source beside the wiki summary. Find the passage supporting
 one claim. Check the date, what any number measures, and any qualification.
 If the wiki page misstates the source, ask the agent to correct it.
 
-## 6. Start your second source
+## 7. Start your second source
 
 Choose a public source yourself, based on the one thing you wrote down to
 research before meeting Dana. If you're stuck for one, or the fetch fails, pick
 from the fallback list at
 https://github.com/LMU-MSBA/bsan-6088-fa26/blob/main/workshops/workshop-01-sources.md.
 
-Use the step 5 prompt again, with your URL on the last line.
+Use the step 6 prompt again, with your URL on the last line.
 
-When it pauses, glance at the changed pages and move on to step 7. Checking
+When it pauses, glance at the changed pages and move on to step 8. Checking
 this source closely is homework: open the original beside the wiki summary,
 find the passage behind one claim, and ask for a correction if the page
 misstates it. Then add
 at least one more source you choose, so your wiki has at least three public
 sources ingested. The client brief does not count toward them.
 
-## 7. Ask a question and judge the answer
+## 8. Ask a question and judge the answer
 
 ```text
 What do our sources say about where specialty grocers are opening?
@@ -136,7 +150,7 @@ Check whether the answer stays within the evidence. An honest statement that
 information is missing can be a good answer. Identify one useful question to
 ask Dana based on what you learned and keep it for Workshop 2.
 
-## 8. Review, commit, push, and check GitHub
+## 9. Review, commit, push, and check GitHub
 
 Ask the agent to explain the changes and help you review them. After reviewing:
 
@@ -150,25 +164,11 @@ Give me the GitHub links to the spec and plan.
 Open the actual spec and plan on GitHub and check that they are the versions
 you reviewed. Check your public repo in a signed-out browser window. You do not
 need to memorize Git commands; you do need to verify that the files reached
-GitHub.
+GitHub. Run this prompt again after the homework sources are in.
 
 If a step fails, keep the error and what you tried and ask for help on Teams.
 If you evaluated the instructor's output while your setup was blocked, label
 those notes accordingly and finish your own workflow afterward.
-
-## 9. Finish the plan and push again
-
-Steps 5 through 7 covered the plan's source and answer-check tasks. For homework,
-open the plan and look for tasks still marked open. Run each one with:
-
-```text
-Do the next task in the plan.
-Show me the changed files and stop.
-```
-
-Check the files after each task, the same way as in class. When the plan is
-done, or when what is left is out of scope and you've told the agent to mark it
-so, run the step 8 prompt again to push.
 
 ## Submission reminder
 
