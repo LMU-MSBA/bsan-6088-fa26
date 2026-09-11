@@ -156,6 +156,20 @@ If a step fails, keep the error and what you tried and ask for help on Teams.
 If you evaluated the instructor's output while your setup was blocked, label
 those notes accordingly and finish your own workflow afterward.
 
+## 9. Finish the plan and push again
+
+Steps 5 through 7 covered the plan's source and answer-check tasks. For homework,
+open the plan and look for tasks still marked open. Run each one with:
+
+```text
+Do the next task in the plan.
+Show me the changed files and stop.
+```
+
+Check the files after each task, the same way as in class. When the plan is
+done, or when what is left is out of scope and you've told the agent to mark it
+so, run the step 8 prompt again to push.
+
 ## Submission reminder
 
 Follow the Brightspace assignment: paste six links (capstone repo, reading
