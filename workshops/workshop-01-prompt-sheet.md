@@ -168,7 +168,6 @@ Ask the agent to explain the changes and help you review them. After reviewing:
 ```text
 Update the task statuses in the plan to match what we completed.
 Commit and push everything to GitHub.
-Tell me if anything fails.
 Give me the GitHub links to the spec and plan.
 ```
 
