@@ -101,8 +101,9 @@ before any public source goes in.
 
 ## 6. Ingest and check the first public source
 
-The first source is ICSC's April 24, 2026 article on grocery formats and store
-growth. The link is already on the last line:
+The first source is [ICSC's April 24, 2026 article on grocery formats and store
+growth](https://www.icsc.com/news-and-views/icsc-exchange/new-grocery-formats-store-growth-and-investment-signal-sector-in-motion). Open it in your browser now; you will need it beside the wiki
+page. The link is already on the last line of the prompt:
 
 ```text
 Ingest the source at the URL below.
