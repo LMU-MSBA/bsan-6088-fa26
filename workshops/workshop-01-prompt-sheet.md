@@ -69,10 +69,13 @@ what you decided. Both files must exist before you approve the build.
 
 ## 4. Approve the plan and build the initial wiki
 
-After reviewing the plan:
+After you approve, the agent asks for an execution mode: subagent-driven or
+inline. Choose inline so every change happens in front of you. This prompt
+answers that question:
 
 ```text
-I approve the plan. Do only the first task, the initial wiki setup.
+I approve the plan. Execute inline, in this session.
+Do only the first task, the initial wiki setup.
 Show me the changed files and stop before ingesting a source.
 ```
 
