@@ -38,11 +38,11 @@ Use the LLM wiki pattern at
 https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 as a reference. If you cannot read it, tell me and pause for a local copy.
 
-Ask clarifying questions one at a time. Keep this first design focused on
-raw/ for sources, wiki/ for cited pages, wiki/index.md, wiki/log.md, and
-concise instructions in CLAUDE.md (or this agent's equivalent project
-instructions file). Preserve the original sources. Use the provided
-brief and public research; apply the brief's data boundaries.
+Ask at most four clarifying questions, one at a time. Keep this first
+design focused on raw/ for sources, wiki/ for cited pages, wiki/index.md,
+wiki/log.md, and concise instructions in CLAUDE.md (or this agent's
+equivalent project instructions file). Preserve the original sources. Use
+the provided brief and public research; apply the brief's data boundaries.
 
 Save our agreed design as a Markdown spec in docs/superpowers/specs/.
 Show me its path and pause for my review. Do not write the implementation
@@ -171,7 +171,8 @@ those notes accordingly and finish your own workflow afterward.
 
 ## Submission reminder
 
-Follow the Brightspace assignment: submit six links (capstone repo, reading
-notes, spec, plan, deployed dashboard, tutorial repo) and the confidentiality
-paragraph by **September 20 at 11:59 PM Pacific**. Share the reading-notes
-Google Doc with **greg@lontok.com**.
+Follow the Brightspace assignment: paste six links (capstone repo, reading
+notes, spec, plan, deployed dashboard, tutorial repo) and type the
+confidentiality paragraph in the Brightspace text submission box by
+**September 20 at 11:59 PM Pacific**. No attachment is needed. Share the
+reading-notes Google Doc with **greg@lontok.com**.
