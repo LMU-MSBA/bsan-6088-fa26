@@ -177,10 +177,6 @@ you reviewed. Check your public repo in a signed-out browser window. You do not
 need to memorize Git commands; you do need to verify that the files reached
 GitHub. Run this prompt again after the homework sources are in.
 
-If a step fails, keep the error and what you tried and ask for help on Teams.
-If you evaluated the instructor's output while your setup was blocked, label
-those notes accordingly and finish your own workflow afterward.
-
 ## Submission reminder
 
 Follow the Brightspace assignment: paste six links (capstone repo, reading
