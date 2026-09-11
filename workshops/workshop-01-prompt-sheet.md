@@ -27,27 +27,30 @@ For every task, ask yourself:
 2. How will you check its work?
 3. What will you accept, change, or reject, and why?
 
-## 1. Brainstorm and save the spec
+## 1. Brainstorm the design and review the spec
 
 ```text
 Help me design a research wiki to prepare for the Meridian stakeholder interview.
 Interview me one question at a time with multiple-choice options.
-Do not plan or build until I approve the design.
+When I confirm the design, write the spec.
+Do not write the plan or build until I approve the spec.
 Read @raw/client-brief.md.
 Follow the LLM wiki pattern at https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f.
 ```
 
-Answer the clarifying questions from your understanding of the brief. In VS
-Code, expand `docs/superpowers/specs/` and open the saved spec. Check the purpose,
-source handling, data boundaries, and proposed result. Ask for corrections as
-needed. If the design is only in chat, ask the agent to save the Markdown file.
+Answer the questions from your understanding of the brief. When the agent
+summarizes the design, confirm it or ask for changes. It then writes the spec.
+In VS Code, expand `docs/superpowers/specs/` and open it. Read the purpose,
+source handling, data boundaries, and proposed result, and push back on anything
+to change. Approve it only when the file says what you decided. If the design is
+only in chat, ask the agent to save the Markdown file.
 
-## 2. Approve the spec and save the plan
+## 2. Approve the spec and write the plan
 
 Use this after reviewing the spec:
 
 ```text
-I approve the design. Write the implementation plan.
+I approve the spec. Write the implementation plan.
 For each task, say what done looks like and how I check it.
 Do not build until I approve the plan.
 ```
@@ -58,7 +61,7 @@ the wiki, ingesting your sources, and checking answers against them. The spec
 and plan are your work log, so ask for corrections until the saved files say
 what you decided. Both files must exist before you approve the build.
 
-## 3. Build the initial wiki
+## 3. Approve the plan and build the initial wiki
 
 After reviewing the plan:
 
