@@ -129,7 +129,7 @@ meet the standard.
 | Workshop | What you turn in                                                                                                                                                               |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1        | Your public `meridian-capstone` repository containing the research wiki, your reading notes link, direct links to your saved Superpowers spec and implementation plan, a short confidentiality paragraph applying the client brief's data boundaries, and links to your deployed Part 2 dashboard and separate tutorial repository |
-| 2        | Your problem statement before and after the stakeholder interview, what changed it, the assumptions you are proceeding on, and the one question you wish you had asked         |
+| 2        | Your problem statement after the stakeholder interview, a V1 of a solution with a visual from your coding agent, the assumptions you are proceeding on, and the one question you wish you had asked |
 | 3        | A data acquisition plan, a working pull from a public or third-party source with the code, a terms of use and privacy check, and your best proxy for the missing internal data |
 | 4        | A reflection tying specific chapters to something that actually happened in workshops 1 through 3, and the message you would send the stakeholder raising the real problem     |
 
