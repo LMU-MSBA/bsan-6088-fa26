@@ -24,3 +24,14 @@ template.
 This repository is read-only for students. Workshop materials are published here
 ahead of each session. Deliverables are due at 11:59 PM on the dates above and
 are submitted through Brightspace.
+
+## Workshop materials
+
+- Workshop 1: [prompt sheet](workshops/workshop-01-prompt-sheet.md) and
+  [public-source fallback list](workshops/workshop-01-sources.md).
+- Workshop 2: [student brief and progression](workshops/workshop-02/README.md),
+  [worksheet](workshops/workshop-02/worksheet.md), and
+  [assignment](workshops/workshop-02/assignment.md).
+  The brief explains when to open the stakeholder role card.
+
+Both workshops use the [Meridian Markets client brief](workshops/client-brief.md).
