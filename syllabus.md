@@ -5,8 +5,8 @@ Fall 2026
 
 |              |                                                                    |
 | ------------ | ------------------------------------------------------------------ |
-| Format       | Online and synchronous, over Zoom                                  |
-| Meetings     | Four workshops, Fridays 9:00 AM to 12:00 PM                        |
+| Format       | Online, over Zoom. Workshops 1 and 2 are live, and Workshop 3 is self-paced |
+| Meetings     | Two live workshops, Fridays 9:00 AM to 12:00 PM, and one self-paced tutorial |
 | Location     | [https://lmula.zoom.us/my/lontok](https://lmula.zoom.us/my/lontok) |
 | Credit hours | 0. This course carries no units and is required for the MSBA       |
 | Grading      | Credit / No Credit                                                 |
@@ -14,9 +14,10 @@ Fall 2026
 ## Course description
 
 A required workshop series that prepares you for the Summer Capstone Project.
-The four workshops cover working with AI on real work, identifying and framing
-business problems that deliver measurable value, getting data when the obvious
-source does not exist, and the unspoken rules of professional life.
+The three workshops cover working with AI on real work, identifying and framing
+business problems that deliver measurable value, and getting data when the
+obvious source does not exist. You read Gorick Ng's *The Unspoken Rules*
+alongside the first two.
 
 This course is for M.S. Business Analytics majors only.
 
@@ -131,7 +132,6 @@ meet the standard.
 | 1        | Your public `meridian-capstone` repository containing the research wiki, your reading notes link, direct links to your saved Superpowers spec and implementation plan, a short confidentiality paragraph applying the client brief's data boundaries, and links to your deployed Part 2 dashboard and separate tutorial repository |
 | 2        | Your problem statement after the stakeholder interview, a V1 of a solution with a visual from your coding agent, the assumptions you are proceeding on, and the one question you wish you had asked |
 | 3        | A data acquisition plan, a working pull from a public or third-party source with the code, a terms of use and privacy check, and your best proxy for the missing internal data |
-| 4        | A reflection tying specific chapters to something that actually happened in workshops 1 through 3, and the message you would send the stakeholder raising the real problem     |
 
 For Workshop 1, the Superpowers spec and implementation plan serve as your AI
 work log. Save, review, and approve the spec before asking for the plan. Save
@@ -150,7 +150,7 @@ Each deliverable is assessed on three things:
 | Effort     | Does the work show genuine engagement with the material? |
 | Learning   | Does it show progress and understanding?                 |
 
-You earn Credit for the course by completing all four workshop deliverables to
+You earn Credit for the course by completing all three workshop deliverables to
 that standard. Deliverables are not averaged and there is no partial credit
 across workshops. A missing deliverable is the thing that costs you credit,
 which is why the attendance and submission policies below are about telling me
@@ -163,35 +163,41 @@ Credit puts your eligibility for the Summer Capstone in question.
 
 ## Workshop schedule
 
-Each workshop is a hands-on tutorial. You learn the material by doing it,
+Each workshop is hands-on. You learn the material by doing it,
 including by making mistakes and working out the fix, which is the habit the
 Summer Capstone will ask for.
 
-All four workshops are anchored on one client engagement. It is fictional, and
+All three workshops are anchored on one client engagement. It is fictional, and
 it is dysfunctional in the ways real engagements are: the requirements are
 vague, the stakeholder is hard to reach, the internal data you were promised
 does not exist, and some of their data may not go into an AI tool. You get the
 brief in Workshop 1.
 
-| #   | Date       | Time                | Topic                                             | Deliverable due |
-| --- | ---------- | ------------------- | ------------------------------------------------- | --------------- |
-| 1   | Fri Sep 11 | 9:00 AM to 12:00 PM | Working with AI                                   | Sun Sep 20      |
-| 2   | Fri Oct 16 | 9:00 AM to 12:00 PM | Problem identification and framing                | Sun Oct 25      |
-| 3   | Fri Oct 30 | 9:00 AM to 12:00 PM | Getting the data, especially when it is not there | Sun Nov 8       |
-| 4   | Fri Nov 13 | 9:00 AM to 12:00 PM | The unspoken rules                                | Sun Nov 22      |
+| #   | Date                    | Time                | Topic                                             | Deliverable due     |
+| --- | ----------------------- | ------------------- | ------------------------------------------------- | ------------------- |
+| 1   | Fri Sep 11              | <span style="white-space: nowrap">9:00 AM to 12:00 PM</span> | Working with AI                                   | Sun Sep 20          |
+| 2   | Fri Oct 30              | <span style="white-space: nowrap">9:00 AM to 12:00 PM</span> | Problem identification and framing                | Sun Nov 8           |
+| 3   | <span style="white-space: nowrap">After Workshop 2 closes</span> | Self-paced          | Getting the data, especially when it is not there | With the assignment |
 
-About the first thirty minutes of each session is a discussion of *The Unspoken
-Rules*. Read the chapters below before that Friday.
+This schedule was revised on Oct 16, 2026. Workshop 2 moved from Oct 16 to
+Oct 30, Workshop 3 became a self-paced tutorial, and the Nov 13 workshop on the
+unspoken rules was removed. I'll post Workshop 3 in Brightspace after the
+Workshop 2 deadline and its two-day grace period have passed, so a grace you
+asked for still holds. It's self-paced, like Part 2 of the AI Dev Workflow
+Tutorial, and it's separate from that tutorial. Its due date is posted with it,
+and I'll announce the posting in Brightspace and Teams.
+
+About the first thirty minutes of each live session is a discussion of *The
+Unspoken Rules*. Read the chapters below before that Friday. The Oct 30
+discussion covers the rest of the book and is the last one.
 
 | Before             | Read                                                                                     |
 | ------------------ | ---------------------------------------------------------------------------------------- |
 | Workshop 1, Sep 11 | Introduction, Chapter 1 (The Three Cs), and Chapter 2 (Think, "Let's Give This a Shot!") |
-| Workshop 2, Oct 16 | Chapters 3 to 9, Show Up Like a High Performer through Manage Your Workload              |
-| Workshop 3, Oct 30 | Chapter 10 (Read Between the People) and Chapter 11 (Spark Relationships)                |
-| Workshop 4, Nov 13 | Chapters 12 to 15, Master Meetings through Show Your Potential, and the afterword        |
+| Workshop 2, Oct 30 | Chapter 3 (Show Up Like a High Performer) through Chapter 15 (Show Your Potential) and the afterword |
 
 The reading is light before Workshop 1 because the tutorial is the pre-work
-that matters that week. It is heavy before Workshop 2 because you have five
+that matters that week. It is heavy before Workshop 2 because you have seven
 weeks.
 
 For each chapter, write down a question you have about the material, a quote
@@ -201,15 +207,15 @@ job you're hoping for after graduation. One to three sentences each is plenty.
 Keep them in your copy of the notes template, the Google Doc you set up before
 Workshop 1.
 
-There is no separate assignment for the book. Those notes are the raw material
-for Workshop 4's deliverable. It asks you to tie specific chapters to things
-that actually happened in workshops 1 through 3.
+There is no separate assignment for the book. The notes doc you shared in
+Workshop 1 should cover every chapter by Oct 30, and the discussions draw on
+it.
 
 Deliverables are due at 11:59 PM on the Sunday that closes the week after their
 workshop unless I say otherwise, which is nine days and two weekends. Every due
 date is posted in Brightspace.
 
-Note that Nov 13 is also the last day to withdraw from a class or apply for
+Note that Nov 13 is the last day to withdraw from a class or apply for
 credit/no credit grading.
 
 ## Work load expectations
@@ -222,9 +228,10 @@ to 80 minutes. After Workshop 1, complete Part 2, which is about three hours
 and is due with the Workshop 1 deliverable. The other pre-work before a session
 is the reading, on the schedule above.
 
-Each workshop is three hours in session. Expect about two to three more hours of
-work for each workshop, before or after the session itself. Workshop 1 carries
-the tutorial on top of that.
+Workshops 1 and 2 are three hours in session. Expect about two to three more
+hours of work for each, before or after the session itself. Workshop 1 carries
+the tutorial on top of that. Workshop 3 is done on your own time, and its due
+date is posted with it.
 
 ## Assignment submission
 
@@ -232,15 +239,15 @@ Assignments are submitted through Brightspace by the posted deadline.
 
 If the assignment submission is going to be late, send me a Teams message before
 the deadline and you get a two-day grace period. Late work with no message is a
-missing deliverable. Nothing for a workshop counts once the next workshop
-begins, and nothing for Workshop 4 counts after Friday, December 11, the last
+missing deliverable. Nothing for a workshop counts once the next one
+opens, and nothing for Workshop 3 counts after Friday, December 11, the last
 day of classes.
 
 Emergencies sit outside this, so tell me when you're able and we'll make a plan.
 
 ## Attendance and participation
 
-Your scheduled commitments are the four workshops. If you feel ill, stay home,
+Your scheduled commitments are the live workshops. If you feel ill, stay home,
 rest, and keep everyone else healthy.
 
 When you can't make a scheduled commitment, send me a Teams message. Before the
@@ -250,7 +257,7 @@ This course is a short series of workshops, and missing one is missing a large
 part of it. Tell me you can't be there, and we'll work out how you cover the
 material and finish the deliverable.
 
-Workshops are recorded and posted in Brightspace. Missing the live session means
+Live workshops are recorded and posted in Brightspace. Missing the live session means
 watching the recording and doing additional work I assign to cover it.
 
 If you miss a workshop without telling me, I have nothing to work with. The
@@ -266,10 +273,11 @@ work out a plan for the rest of the term.
 This course is fully online, so the ways we stay in contact are worth stating
 plainly.
 
-The workshops are synchronous and hands-on. I'm there for the full three hours,
-I answer questions live, and I look at work in progress during the session.
-Between workshops, Teams is the fastest way to reach me, and office hours are
-bookable on Zoom at the Calendly link above.
+The live workshops are synchronous and hands-on. I'm there for the full three
+hours, I answer questions live, and I look at work in progress during the
+session. Between workshops, and while you work through the Workshop 3
+tutorial, Teams is the fastest way to reach me. Office hours are bookable on
+Zoom at the Calendly link above.
 
 Engagement in this course looks like being present in the workshop, working
 along with the exercises, and turning in the deliverable. If I don't see a
