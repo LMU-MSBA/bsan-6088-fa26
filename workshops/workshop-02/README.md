@@ -48,7 +48,6 @@ Use only the interview notes below as case evidence, not the older Meridian case
 Help us clarify the problem from our notes before discussing solutions.
 Ask one question at a time to compare possible approaches, including a simpler process change.
 After we choose an approach, draft workshop-02/PRD.md for our review.
-Include the problem statement in section 1 and keep the six sections.
 Do not build the solution. Stop after drafting the PRD and wait for our review.
 
 [Paste the group's interview notes here.]
