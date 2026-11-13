@@ -28,13 +28,9 @@ library link, the reading schedule for the rest of the term, and the notes
 template.
 
 This repository is read-only for students. Materials for the live workshops are
-published here before each session, and the Workshop 3 tutorial is linked
-below and assigned in Brightspace. Deliverables are due at 11:59 PM on the dates above, or for
+published here before each session, and the Workshop 3 tutorial is posted in
+Brightspace. Deliverables are due at 11:59 PM on the dates above, or for
 Workshop 3 on the date posted with it, and are submitted through Brightspace.
-
-## Workshop 3 tutorial
-
-Work through the [data collection tour](workshops/workshop-03/README.md) on your own time. You make one small pull on each of four routes, write a source note for each, and submit the link to your `workshop-03/sources.md` through Brightspace.
 
 ## Workshop 2 activity
 
