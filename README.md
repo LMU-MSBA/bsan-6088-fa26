@@ -34,7 +34,7 @@ Workshop 3 on the date posted with it, and are submitted through Brightspace.
 
 ## Workshop 3 tutorial
 
-Work through the [data collection tour](workshops/workshop-03/README.md) on your own time. You make one small pull on each of three routes, write a source note for each, and submit the link to your `workshop-03/sources.md` through Brightspace by Sunday, December 20, at 11:59 PM.
+Work through the [data collection tour](workshops/workshop-03/README.md) on your own time. You make one small pull with each of three methods, write a source note for each, and submit the link to your `workshop-03/sources.md` through Brightspace by Sunday, December 20, at 11:59 PM.
 
 ## Workshop 2 activity
 

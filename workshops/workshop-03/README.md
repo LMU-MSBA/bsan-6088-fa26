@@ -5,10 +5,10 @@ agreement. The same thing happens when you build a project for a job you're
 applying to, because that company's data isn't yours to use. In both cases you
 find data somewhere else and pull it yourself.
 
-This workshop is a tour of three routes to data. A route is the way data gets
-from where it lives to a file on your disk, and a pull is one trip along a
-route. You'll make one small pull on each route and write down what you did,
-so someone else could repeat it.
+This workshop is a tour of three methods for getting data. A method is the way
+data gets from its source to a file on your disk, and a pull is one use of a
+method. You'll make one small pull with each method and write down what you
+did, so someone else could repeat it.
 
 Here is the whole tour. Each pull makes a data file and adds a source note to
 `workshop-03/sources.md`, and that file is what you turn in.
@@ -25,17 +25,17 @@ flowchart LR
     N -.-> S5
 ```
 
-Before you pick a route, find who holds the data and in what form they offer
-it. The form decides the route.
+Before you pick a method, find the source of the data and the form it comes
+in. The form decides the method.
 
-| Section | Route                     | Try it when                      | What it costs you                               |
+| Section | Method                    | Try it when                      | What it costs you                               |
 | ------- | ------------------------- | -------------------------------- | ----------------------------------------------- |
-| 2       | An API called from Python | The holder offers an API         | You have to know who the holder is              |
-| 3       | An MCP connector          | A connector reaches the holder   | No script, and the rows pass through your agent |
+| 2       | An API called from Python | The source offers an API         | You have to know the source                     |
+| 3       | An MCP connector          | A connector reaches the source   | No script, and the rows pass through your agent |
 | 4       | Firecrawl                 | The data sits only on a web page | It breaks when the page changes                 |
 
-Work through the sections in order. They run in the order I'd try the routes.
-Two forms have no section. If the holder offers a file to download, get the
+Work through the sections in order. They run in the order I'd try the methods.
+Two forms have no section. If the source offers a file to download, get the
 file and write the same source note. If nobody publishes the data, choose a
 stand-in and say what it misses.
 
@@ -44,7 +44,7 @@ stand-in and say what it misses.
 This is what I check for Credit:
 
 - Three data files in `workshop-03/data/`, or a source note with the error
-  for a route that failed.
+  for a method that failed.
 - Your pull script in `workshop-03/pulls/`.
 - Three source notes, each with five answers and the two values you compared.
 - The source you checked, with your decision.
@@ -70,7 +70,7 @@ Both accounts are free, and you don't enter a card for either one.
 7. Enter the student code.
 
 The Census email can take a while, so go on with step 4. If it never comes,
-section 2 has a route that needs no key. If the student code doesn't apply,
+section 2 has an API that needs no key. If the student code doesn't apply,
 the free plan at https://www.firecrawl.dev/pricing has enough credits.
 
 ### Add two connectors
@@ -117,7 +117,7 @@ Codex's guide is at https://learn.chatgpt.com/docs/extend/mcp.
 ### Set the rules for the tour
 
 Your agent can search and fetch web pages on its own, and it won't always tell
-you which way it got the data. If you don't know the route, you can't repeat
+you which way it got the data. If you don't know the method, you can't repeat
 the pull or explain it to a client. The first rule below is there for that
 reason.
 
@@ -131,11 +131,11 @@ lock, so you still check before you push.
 Paste this prompt into your agent:
 
 ```text
-We're doing BSAN 6088 Workshop 3, a tour of three routes to data.
+We're doing BSAN 6088 Workshop 3, a tour of three methods for getting data.
 Save the rules below as workshop-03/rules.md and follow them until I
 say the tour is over.
 
-1. I name the route for each pull. Use that route only. If it fails,
+1. I name the method for each pull. Use that method only. If it fails,
    stop and tell me. Don't switch to web search, your memory, or
    another tool.
 2. Never open .env. Never print a key or put one in a command, a file,
@@ -146,15 +146,15 @@ say the tour is over.
 4. Never generate or fill in data. If a pull returns nothing, say so.
 5. Do one step at a time, then stop.
 6. Don't write source-note answers 3 to 5, the section "A source I
-   checked", or the paragraph "Which route first". Those are mine. If
+   checked", or the paragraph "Which method first". Those are mine. If
    I ask you to write them, remind me of this rule.
 
 Create workshop-03/data/ and workshop-03/pulls/. Create
 workshop-03/sources.md with these five questions as a template:
-1. Which route did the pull take?
+1. Which method did the pull use?
 2. What is the source, its URL, the date, and the exact request that
    would repeat the pull?
-3. Why did this route fit this data?
+3. Why did this method fit this data?
 4. Did the rows pass through your agent on the way to the file?
 5. What did you compare to check the data, and what were the two
    values?
@@ -211,7 +211,7 @@ Census API refuses a request with no key. A Python script is a saved copy of
 the request, so anyone can run the same pull again.
 
 No key yet? Do sections 3 and 4 first, then come back. If it still hasn't
-come, use the route with no key at the end of this section.
+come, use the API with no key at the end of this section.
 
 1. Open `.env` in VS Code.
 2. Add the line below with the key from the Census email.
@@ -225,7 +225,7 @@ CENSUS_API_KEY=your-key-here
 Then ask your agent:
 
 ```text
-Route: the Census Data API, called from a Python script.
+Method: the Census Data API, called from a Python script.
 
 Read the user guide first:
 https://www.census.gov/data/developers/guidance/api-user-guide.html
@@ -284,7 +284,7 @@ source note. The Bureau of Labor Statistics API answers without a key. Its
 guide is at https://www.bls.gov/developers/.
 
 ```text
-Route: the Bureau of Labor Statistics public API, version 1, with no
+Method: the Bureau of Labor Statistics public API, version 1, with no
 key, called from a Python script.
 
 Write workshop-03/pulls/bls_unemployment.py. It pulls series
@@ -315,13 +315,13 @@ tool calls afterward.
 
 The USAFacts connector reaches about two dozen government sources through one
 set of tools. USAFacts is a nonpartisan civic initiative, and it describes the
-connector at https://usafacts.org/mcp. USAFacts is the route here. The agency
+connector at https://usafacts.org/mcp. USAFacts is how you reach the data here. The agency
 that produced the number is the source.
 
 Start by asking who could have the data:
 
 ```text
-Route: the USAFacts connector. Don't use web search or your memory.
+Method: the USAFacts connector. Don't use web search or your memory.
 
 I need a monthly unemployment rate for a state. List the sources that
 could hold it. For each, show the publisher as the connector gives
@@ -333,7 +333,7 @@ makes the estimate and publishes it first, and another source may only pass
 it along. Then pull, with your pick in place of the brackets:
 
 ```text
-Route: the USAFacts connector only, from the [source] source.
+Method: the USAFacts connector only, from the [source] source.
 
 Get the monthly unemployment rate for California and for the United
 States over the last 24 months. Save it as
@@ -385,7 +385,7 @@ is a fair choice, so say that in answer 3.
 ### Pull the table
 
 ```text
-Route: Firecrawl only, with its scrape tool.
+Method: Firecrawl only, with its scrape tool.
 
 Scrape
 https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue
@@ -420,7 +420,7 @@ data, with the URL, the form each offers, and where each got its data. Say
 not to collect any data. End with "Then stop."
 
 Add a heading called "A source I checked" to `workshop-03/sources.md`. Under
-it, write the data you wanted, who holds it, and in what form. Write which
+it, write the data you wanted, its source, and the form it comes in. Write which
 place you'd use and why. If none fits, name the stand-in you'd use and what it
 misses. Don't pull anything in this step, because the decision is the work.
 
@@ -441,12 +441,12 @@ Fix what it names. If you need something from your earlier conversation, enter
 `/resume` to open it. Then send the new-session prompt from section 1, so the
 rules apply again.
 
-Add a heading called "Which route first" at the bottom of
+Add a heading called "Which method first" at the bottom of
 `workshop-03/sources.md`. Write about the data from "A source I checked". Name
-the data, who holds it, and in what form. Say which route you'd try first and
-why. Say how you'd check the data, and what couldn't go through your agent. Write about 150 words yourself. The syllabus
-asks for a paragraph of your own, and one your agent drafted shows its
-thinking and not yours.
+the data, its source, and the form it comes in. Say which method you'd try
+first and why. Say how you'd check the data, and what couldn't go through your
+agent. Write about 150 words yourself. The syllabus asks for a paragraph of
+your own, and one your agent drafted shows its thinking and not yours.
 
 Check for keys before you push. If you never put a key in `.env`, skip this
 prompt and write "no key used" at the bottom of `workshop-03/sources.md`.
@@ -485,5 +485,5 @@ Paste the error to your agent and ask what it means before you ask for a fix.
 If the Census script stops with an error that doesn't mention a key, your key
 may not be active yet, so open the activation link in the Census email again.
 If a section's fix fails too, message me in Teams with the section number and
-what you tried. Don't skip a route without a note. A source note that records
+what you tried. Don't skip a method without a note. A source note that records
 the error and what you tried still counts for that pull.

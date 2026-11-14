@@ -131,7 +131,7 @@ meet the standard.
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1        | Your public `meridian-capstone` repository containing the research wiki, your reading notes link, direct links to your saved Superpowers spec and implementation plan, a short confidentiality paragraph applying the client brief's data boundaries, and links to your deployed Part 2 dashboard and separate tutorial repository |
 | 2        | Your problem statement after the stakeholder interview, a V1 of a solution with a visual from your coding agent, the assumptions you are proceeding on, and the one question you wish you had asked |
-| 3        | A small data pull from each route in the tutorial, the script behind the API pull, a source note for each pull, and a paragraph of your own on which route you would try first |
+| 3        | A small data pull with each method in the tutorial, the script behind the API pull, a source note for each pull, and a paragraph of your own on which method you would try first |
 
 For Workshop 1, the Superpowers spec and implementation plan serve as your AI
 work log. Save, review, and approve the spec before asking for the plan. Save
