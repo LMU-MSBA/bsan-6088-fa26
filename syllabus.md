@@ -67,12 +67,12 @@ section below. The introduction and first two chapters are due before Workshop
 There are no required lab fees, and LMU bills nothing for this course. There is
 one subscription you pay for yourself, below.
 
-Claude Pro costs $20 a month, so about $60 for September, October, and November.
+Claude Pro costs $20 a month, so about $80 for September through December.
 You work in Claude Code in every workshop, and the free tier of Claude doesn't
 include it. The subscription isn't tied to this course, so use it for your other
 classes and whatever else you're working on.
 Annual billing costs less per month but commits you to twelve, so only choose it
-if you expect to keep using it past November. If the cost is a problem, talk to
+if you expect to keep using it past December. If the cost is a problem, talk to
 me before you pay.
 
 If you already pay for ChatGPT, it includes Codex, OpenAI's coding agent, which
@@ -131,7 +131,7 @@ meet the standard.
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1        | Your public `meridian-capstone` repository containing the research wiki, your reading notes link, direct links to your saved Superpowers spec and implementation plan, a short confidentiality paragraph applying the client brief's data boundaries, and links to your deployed Part 2 dashboard and separate tutorial repository |
 | 2        | Your problem statement after the stakeholder interview, a V1 of a solution with a visual from your coding agent, the assumptions you are proceeding on, and the one question you wish you had asked |
-| 3        | Four small data pulls, one from each route in the tutorial, with the code behind them, a source note for each pull that covers terms of use and personal data, and a paragraph of your own on which route you would try first |
+| 3        | A small data pull from each route in the tutorial, the script behind the API pull, a source note for each pull, and a paragraph of your own on which route you would try first |
 
 For Workshop 1, the Superpowers spec and implementation plan serve as your AI
 work log. Save, review, and approve the spec before asking for the plan. Save
@@ -240,9 +240,9 @@ Assignments are submitted through Brightspace by the posted deadline.
 
 If the assignment submission is going to be late, send me a Teams message before
 the deadline and you get a two-day grace period. Late work with no message is a
-missing deliverable. Nothing for a workshop counts once the next one
-opens, and nothing for Workshop 3 counts after Friday, December 11, the last
-day of classes.
+missing deliverable. Nothing for a workshop counts once the next one opens.
+Workshop 3 is due Sunday, December 20, the last Sunday before final grades are
+due, so it has no grace period and nothing counts after that date.
 
 Emergencies sit outside this, so tell me when you're able and we'll make a plan.
 
