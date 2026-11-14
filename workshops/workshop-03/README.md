@@ -10,6 +10,21 @@ from where it lives to a file on your disk, and a pull is one trip along a
 route. You'll make one small pull on each route and write down what you did,
 so someone else could repeat it.
 
+Here is the whole tour. Each pull makes a data file and adds a source note to
+`workshop-03/sources.md`, and that file is what you turn in.
+
+```mermaid
+flowchart LR
+    S1["1. Set up<br/>accounts, connectors,<br/>rules.md"] --> S2["2. API from Python<br/>Census, 58 counties"]
+    S2 --> S3["3. MCP connector<br/>USAFacts, 24 months"]
+    S3 --> S4["4. Firecrawl<br/>Wikipedia, 100 companies"]
+    S4 --> S5["5. Turn in<br/>test notes, paragraph,<br/>key check, push"]
+    S2 -.-> N[("sources.md<br/>one source note per pull")]
+    S3 -.-> N
+    S4 -.-> N
+    N -.-> S5
+```
+
 Before you pick a route, find who holds the data and in what form they offer
 it. The form decides the route.
 
