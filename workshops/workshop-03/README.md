@@ -60,9 +60,23 @@ the free plan at https://www.firecrawl.dev/pricing has enough credits.
 
 ### Add two connectors
 
-An MCP server is a service that gives your agent a set of tools it can call.
-MCP is the Model Context Protocol, described at
-https://modelcontextprotocol.io. Claude's apps call an MCP server a connector.
+Your agent can do only what its tools let it do. Out of the box, Claude Code
+can read and write files, run commands, and search the web. MCP, the Model
+Context Protocol, is a standard way to give it more tools. Its own docs at
+https://modelcontextprotocol.io compare it to a USB-C port: any service built
+to the standard plugs into any agent that supports it.
+
+A service built this way is an MCP server, and Claude's apps call it a
+connector. Each connector adds tools your agent can call, such as "list the
+sources" or "get this data series." You ask in plain words, and your agent
+picks the tool and fills in the request:
+
+```text
+you → your agent → the connector → the service's own API → data
+```
+
+You'll add two connectors now. USAFacts reaches government data, and
+Firecrawl reads web pages.
 
 Open a new terminal in VS Code with your repo open. If Claude Code is running
 in it, enter `/exit` first. Then run these two commands:
@@ -161,9 +175,25 @@ Suppose a client gives you sales by county and nothing about the people who
 live in each county. The Census Bureau publishes that, and it offers an API.
 Its developer page is https://www.census.gov/data/developers.html.
 
-An API is an address that answers a request with data and not a web page. The
-request names the dataset, the fields you want, and the places you want them
-for. A key in the request tells the service who is asking.
+You already use APIs without seeing them. When a weather app shows tomorrow's
+forecast, it doesn't open a weather website. It sends a request to the
+weather service's API and gets back numbers, which it puts on your screen.
+
+An API, short for application programming interface, is a web address built
+for programs and not for people. A web page returns text and pictures laid out
+for you to read. An API returns plain data that a script can save. Every part
+of the request means something, and you'll read each part in this section:
+
+```text
+https://api.census.gov/data/2024/acs/acs5    which dataset and year
+  ?get=NAME,B19013_001E                      which fields
+  &for=county:*&in=state:06                  which places
+  &key=KEY                                   who is asking
+```
+
+The key tells the service who is asking, so it can count your requests. The
+Census API refuses a request with no key. A Python script is a saved copy of
+the request, so anyone can run the same pull again.
 
 No key yet? Do sections 3 and 4 first, then come back. If it still hasn't
 come, use the route with no key at the end of this section.
@@ -261,6 +291,12 @@ with each. Then ask for the source note with the prompt above.
 Suppose the client's sales dipped last year, and they want to know if the
 economy explains it. You need an economic series, and you don't know which
 agency publishes the right one.
+
+An API and a connector both get data from a service. The difference is who
+writes the request. In section 2 your script held it, so you could read every
+part. Here your agent picks a tool and writes the request for you. That's
+faster when you don't know the source yet, and it's why you'll ask to see the
+tool calls afterward.
 
 The USAFacts connector reaches about two dozen government sources through one
 set of tools. USAFacts is a nonpartisan civic initiative, and it describes the
