@@ -222,7 +222,10 @@ come, use the API with no key at the end of this section.
 CENSUS_API_KEY=your-key-here
 ```
 
-Then ask your agent:
+Before you ask your agent, think first. At the bottom of
+`workshop-03/sources.md`, write in plain words what the request must name for
+this pull: the dataset and year, the fields, the places, and who is asking.
+Save the file. Then ask your agent:
 
 ```text
 Method: the Census Data API, called from a Python script.
@@ -241,13 +244,24 @@ Run it. Show me the request address in plain characters, not
 percent-encoded, with the key replaced by KEY. Then stop.
 ```
 
-In the request address, find the year and the dataset, the field codes after
-`get=`, the places after `for=` and `in=`, and where the key goes. Ask your
-agent what each field code means if the address doesn't tell you.
+Compare the agent's request address with what you wrote. Find the year and
+the dataset, the field codes after `get=`, the places after `for=` and `in=`,
+and where the key goes. Ask your agent what each field code means if the
+address doesn't tell you.
 The Census Bureau describes the dataset at
 https://www.census.gov/data/developers/data-sets/acs-5year.html, and that page
 links to the field list. Python's guide to virtual environments is at
 https://docs.python.org/3/library/venv.html.
+
+Your agent wrote the script, so make sure you understand it. Have your agent
+tutor you, without looking at the code yourself:
+
+```text
+Quiz me on workshop-03/pulls/census_counties.py. Ask me three
+questions about what it does and why, one at a time, and wait for my
+answer before the next one. Don't send me to line numbers. After each
+answer, tell me what I got right and what I missed. Then stop.
+```
 
 Before you open the CSV, decide how many rows it should hold. Then open it.
 California has 58 counties, so expect 58 rows under the header. Any other
@@ -330,22 +344,28 @@ it. Don't pull any data yet. Then stop.
 
 Pick the source that produces the number. The producer is the agency that
 makes the estimate and publishes it first, and another source may only pass
-it along. Then pull, with your pick in place of the brackets:
+it along.
+
+This time you finish the prompt. Fill in each bracket in your own words:
 
 ```text
-Method: the USAFacts connector only, from the [source] source.
+Method: the USAFacts connector only, from the [your pick] source.
 
-Get the monthly unemployment rate for California and for the United
-States over the last 24 months. Save it as
-workshop-03/data/usafacts_unemployment.csv.
+Get [which series] for [which places] over [which time span]. Save it
+as workshop-03/data/usafacts_unemployment.csv.
 
-Show me the citation that came back with the data, exactly as the
-connector returned it, every field. List the connector tools you
-called and the arguments of each call. Tell me which months have no
-value. Then stop.
+Show me [what proves where the data came from]. List [what would let
+me repeat this pull]. Tell me which months have no value. Then stop.
 ```
 
-Read the citation and the tool calls. Check the publisher. If it's a bank or
+You need the monthly unemployment rate for California and for the United
+States over the last 24 months. To trace and repeat the pull, ask for the
+citation exactly as the connector returned it, and for each tool your agent
+called with its arguments.
+
+Before you read the tool calls, write in `workshop-03/sources.md` which source,
+places, and years you expect the request to name. Then read the citation and
+the tool calls, and compare. Check the publisher. If it's a bank or
 a site that collects other agencies' series, you picked a source that passes
 the number along, so pick the producer and pull again. The tool arguments are
 the request, the same kind your script sent in section 2.
