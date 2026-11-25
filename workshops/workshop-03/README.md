@@ -583,6 +583,6 @@ the Brightspace assignment.
 Paste the error to your agent and ask what it means before you ask for a fix.
 If the Census script stops with an error that doesn't mention a key, your key
 may not be active yet, so open the activation link in the Census email again.
-If a section's fix fails too, message me in Teams with the section number and
-what you tried. Don't skip a method without a note. A source note that records
-the error and what you tried still counts for that pull.
+If a section's fix fails too, message me in Teams with what you tried. Don't
+skip a method without a note. A source note that records the error and what
+you tried still counts for that pull.
