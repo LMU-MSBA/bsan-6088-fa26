@@ -92,10 +92,12 @@ Both accounts are free, and you don't enter a card for either one.
 1. Request a Census key at https://api.census.gov/data/key_signup.html.
 2. Open the email from the Census Bureau.
 3. Select the activation link in that email.
-4. Copy the student code shown at https://www.firecrawl.dev/student-program.
-5. Sign up for Firecrawl with your LMU email.
-6. In Firecrawl, open Settings, then Billing.
-7. Enter the student code.
+4. Open https://www.firecrawl.dev/student-program and scroll down to "Your
+   student code."
+5. Copy the code.
+6. Sign up for Firecrawl with your LMU email.
+7. In Firecrawl, open Settings, then Billing, then the Coupons tab.
+8. Enter the student code and select Apply.
 
 The Census email can take a while, so go on with step 4. If it never comes,
 section 2 has an API that needs no key. If the student code doesn't apply,
