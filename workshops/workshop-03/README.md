@@ -165,6 +165,15 @@ it out of the repo, as described at https://git-scm.com/docs/gitignore. The
 second rule asks your agent to stay out of `.env`. It's a request and not a
 lock, so you still check before you push.
 
+Look at the line under your prompt box. It says "auto mode on" or "manual
+mode on." A current Claude Code starts in auto mode, where your agent writes
+files and runs commands without asking you first and blocks only what it
+judges risky. In manual mode it asks before each edit and each command. Press
+Shift+Tab to move through the modes. The videos use auto mode, and either
+mode works for this workshop. In auto mode nobody asks before a file changes,
+so read what your agent did after each prompt. Claude Code's guide to
+permission modes is at https://code.claude.com/docs/en/permission-modes.
+
 Paste this prompt into your agent:
 
 ```text
